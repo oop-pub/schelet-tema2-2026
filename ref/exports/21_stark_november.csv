@@ -1,0 +1,8 @@
+invoiceId,customer,period,lineType,description,quantity,amount
+41,stark_industries,2026-11,USAGE,api_requests v1,2500,15
+41,stark_industries,2026-11,USAGE,api_requests v2,4001,24
+41,stark_industries,2026-11,USAGE,api_requests v3,1000,6
+41,stark_industries,2026-11,DISCOUNT,Discount applied,,0
+41,stark_industries,2026-11,CREDIT,Credits applied,,0
+41,stark_industries,2026-11,TAX,Tax,,5
+41,stark_industries,2026-11,TOTAL,Total (USD),,50

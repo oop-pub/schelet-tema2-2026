@@ -1,0 +1,271 @@
+[
+  {
+    "command": "viewBalance",
+    "username": "sarra_m",
+    "timestamp": "2026-03-03",
+    "balance": 0,
+    "transactions": []
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-05",
+    "invoices": [
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 4000,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 110,
+            "amount": 540
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 30,
+            "amount": 60
+          }
+        ],
+        "subtotal": 620,
+        "discount": 0,
+        "credits": 0,
+        "tax": 62,
+        "total": 682,
+        "refunded": 30
+      }
+    ]
+  },
+  {
+    "command": "viewBalance",
+    "username": "sarra_m",
+    "timestamp": "2026-04-05",
+    "balance": 652,
+    "transactions": [
+      {
+        "id": 2,
+        "type": "CHARGE",
+        "customer": "lilith_labs",
+        "amount": 682,
+        "timestamp": "2026-04-01",
+        "invoiceId": 1
+      },
+      {
+        "id": 3,
+        "type": "REFUND",
+        "customer": "lilith_labs",
+        "amount": -30,
+        "timestamp": "2026-04-03",
+        "invoiceId": 1
+      }
+    ]
+  },
+  {
+    "command": "viewBalance",
+    "username": "ghost_user",
+    "timestamp": "2026-04-05",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "viewBalance",
+    "username": "alexia_o",
+    "timestamp": "2026-04-05",
+    "error": "The user does not have permission to execute this command: required role MANAGER; user role ADMIN."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "andrei_i",
+    "timestamp": "2026-05-07",
+    "error": "Customer ghost_user not found."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-05-07",
+    "error": "Invoice 0 not found."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "andrei_i",
+    "timestamp": "2026-05-07",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-05-07",
+    "error": "Invalid refund reason SYSTEM_ERROR."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "ghost_user",
+    "timestamp": "2026-05-07",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "viewInvoices",
+    "username": "andrei_i",
+    "timestamp": "2026-05-10",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "UNCOLLECTIBLE",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 30,
+            "amount": 60
+          }
+        ],
+        "subtotal": 60,
+        "discount": 0,
+        "credits": 0,
+        "tax": 6,
+        "total": 66,
+        "refunded": 0
+      },
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "REFUNDED",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 4000,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 110,
+            "amount": 540
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 30,
+            "amount": 60
+          }
+        ],
+        "subtotal": 620,
+        "discount": 0,
+        "credits": 0,
+        "tax": 62,
+        "total": 682,
+        "refunded": 682
+      },
+      {
+        "id": 2,
+        "customer": "lilith_labs",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1150,
+            "amount": 10
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 1011,
+            "amount": 4133
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 200,
+            "amount": 400
+          }
+        ],
+        "subtotal": 4543,
+        "discount": 0,
+        "credits": 0,
+        "tax": 454,
+        "total": 4997,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewBalance",
+    "username": "gabriel_v",
+    "timestamp": "2026-05-10",
+    "balance": 4997,
+    "transactions": [
+      {
+        "id": 2,
+        "type": "CHARGE",
+        "customer": "lilith_labs",
+        "amount": 682,
+        "timestamp": "2026-04-01",
+        "invoiceId": 1
+      },
+      {
+        "id": 3,
+        "type": "REFUND",
+        "customer": "lilith_labs",
+        "amount": -30,
+        "timestamp": "2026-04-03",
+        "invoiceId": 1
+      },
+      {
+        "id": 4,
+        "type": "CHARGE",
+        "customer": "lilith_labs",
+        "amount": 4997,
+        "timestamp": "2026-05-01",
+        "invoiceId": 2
+      },
+      {
+        "id": 5,
+        "type": "REFUND",
+        "customer": "lilith_labs",
+        "amount": -150,
+        "timestamp": "2026-05-06",
+        "invoiceId": 1
+      },
+      {
+        "id": 6,
+        "type": "REFUND",
+        "customer": "lilith_labs",
+        "amount": -502,
+        "timestamp": "2026-05-10",
+        "invoiceId": 1
+      }
+    ]
+  }
+]

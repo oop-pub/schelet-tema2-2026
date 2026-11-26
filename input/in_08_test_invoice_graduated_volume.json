@@ -1,0 +1,141 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 1000000,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 1000000,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-20",
+    "events": [
+      {
+        "id": "evt-1",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 1,
+        "timestamp": "2026-03-10T09:00:00"
+      },
+      {
+        "id": "evt-2",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 99,
+        "timestamp": "2026-03-12T09:25:00"
+      },
+      {
+        "id": "evt-3",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 10,
+        "timestamp": "2026-03-13T10:00:00"
+      },
+      {
+        "id": "evt-4",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 1500,
+        "timestamp": "2026-03-13T23:59:59"
+      },
+      {
+        "id": "evt-5",
+        "customer": "ale_industries",
+        "meter": "gpu_minutes",
+        "value": 101,
+        "timestamp": "2026-03-14T10:00:00"
+      },
+      {
+        "id": "evt-6",
+        "customer": "ale_industries",
+        "meter": "seats",
+        "value": 11,
+        "timestamp": "2026-03-14T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-03-31",
+    "customer": "lilith_labs"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-04-28",
+    "events": [
+      {
+        "id": "evt-7",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 400,
+        "timestamp": "2026-04-02T09:00:00"
+      },
+      {
+        "id": "evt-8",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 600,
+        "timestamp": "2026-04-05T09:25:00"
+      },
+      {
+        "id": "evt-9",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 51,
+        "timestamp": "2026-04-12T23:59:59"
+      },
+      {
+        "id": "evt-10",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 50,
+        "timestamp": "2026-04-12T23:59:59"
+      },
+      {
+        "id": "evt-11",
+        "customer": "ale_industries",
+        "meter": "gpu_minutes",
+        "value": 1001,
+        "timestamp": "2026-04-16T10:00:00"
+      },
+      {
+        "id": "evt-12",
+        "customer": "ale_industries",
+        "meter": "seats",
+        "value": 51,
+        "timestamp": "2026-04-16T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-04-30",
+    "customer": "lilith_labs"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "alexia_o",
+    "timestamp": "2026-05-04"
+  }
+]

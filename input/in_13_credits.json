@@ -1,0 +1,177 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 200,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 5,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-03",
+    "customer": "lilith_labs",
+    "amount": 200,
+    "reason": "Welcome"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-03",
+    "customer": "lilith_labs",
+    "amount": 100,
+    "reason": "Promo",
+    "expiresAt": "2026-04-01"
+  },
+  {
+    "command": "grantCredits",
+    "username": "andrei_i",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "amount": 200,
+    "reason": "Bonus",
+    "expiresAt": "2026-04-20"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "customer": "ghost_customer",
+    "amount": 100,
+    "reason": "Typo"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "customer": "ghost_customer",
+    "amount": 100,
+    "reason": "Typo",
+    "expiresAt": "2026-03-05"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "customer": "lilith_labs",
+    "amount": 100,
+    "reason": "Expired",
+    "expiresAt": "2026-03-05"
+  },
+  {
+    "command": "grantCredits",
+    "username": "alexia_o",
+    "timestamp": "2026-03-05",
+    "customer": "lilith_labs",
+    "amount": 100,
+    "reason": "Admin gift"
+  },
+  {
+    "command": "grantCredits",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05",
+    "customer": null,
+    "amount": 1000,
+    "reason": "Self gift"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-20",
+    "events": [
+      {
+        "id": "evt-1",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 15,
+        "timestamp": "2026-03-10T09:00:00"
+      },
+      {
+        "id": "evt-2",
+        "customer": "ale_industries",
+        "meter": "api_requests",
+        "value": 3000,
+        "timestamp": "2026-03-12T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-31",
+    "customer": null
+  },
+  {
+    "command": "grantCredits",
+    "username": "cosmin_a",
+    "timestamp": "2026-04-02",
+    "customer": "ale_industries",
+    "amount": 100,
+    "reason": "Sorry"
+  },
+  {
+    "command": "grantCredits",
+    "username": "cosmin_a",
+    "timestamp": "2026-04-10",
+    "customer": "ale_industries",
+    "amount": 100,
+    "reason": "Sorry again"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "customer": "lilith_labs",
+    "amount": 300,
+    "reason": "Easter",
+    "expiresAt": "2026-04-25"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-04-15",
+    "events": [
+      {
+        "id": "evt-3",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 20,
+        "timestamp": "2026-04-14T08:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-24",
+    "customer": null
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-04-25",
+    "customer": "lilith_labs"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-02"
+  }
+]

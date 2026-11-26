@@ -1,0 +1,836 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-02"
+  },
+  {
+    "command": "signUp",
+    "username": "bob_labs",
+    "timestamp": "2026-03-02"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-03",
+    "customer": null,
+    "amount": 3000,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "giulio_p",
+    "timestamp": "2026-03-03",
+    "customer": "bob_labs",
+    "amount": 5400,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "amount": 500,
+    "reason": "Complex lifecycle credits"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "amount": 700,
+    "reason": "Complex lifecycle credits",
+    "expiresAt": "2026-06-30"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "bob_labs",
+    "amount": 400,
+    "reason": "Complex lifecycle credits",
+    "expiresAt": "2026-07-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "title": "Monthly invoice discount",
+    "type": "PERCENTAGE",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-06-30"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "title": "GPU offer",
+    "type": "FIXED",
+    "value": 100,
+    "scope": "METER",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-06-30",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "title": "Standard fixed offer",
+    "type": "FIXED",
+    "value": 80,
+    "scope": "INVOICE",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-06-30"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "ale_industries",
+    "title": "Regular invoice allowance",
+    "type": "FIXED",
+    "value": 30,
+    "scope": "INVOICE",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-06-30"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "bob_labs",
+    "title": "Bob GPU usage offer",
+    "type": "PERCENTAGE",
+    "value": 20,
+    "scope": "METER",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-06-30",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "bob_labs",
+    "title": "Bob invoice allowance",
+    "type": "FIXED",
+    "value": 60,
+    "scope": "INVOICE",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-06-30"
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05",
+    "customer": null
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05"
+  },
+  {
+    "command": "viewPricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-05"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "ale_industries",
+    "timestamp": "2026-03-05",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "bob_labs",
+    "timestamp": "2026-03-05",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "bob_labs",
+    "timestamp": "2026-03-05",
+    "meter": "storage_gb"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-06",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-15",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 3
+    }
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-07"
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "ale_industries",
+    "timestamp": "2026-03-07",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "bob_labs",
+    "timestamp": "2026-03-07",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "signUp",
+    "username": "opto_labs",
+    "timestamp": "2026-03-07"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "opto_labs",
+    "timestamp": "2026-03-07",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-08",
+    "customer": "opto_labs",
+    "title": "Regular GPU allowance",
+    "type": "FIXED",
+    "value": 20,
+    "scope": "METER",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-06-30",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-10",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-04-15",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 4
+    }
+  },
+  {
+    "command": "viewPricing",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "bob_labs",
+    "timestamp": "2026-03-11",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-12"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-12"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "bob_labs",
+    "timestamp": "2026-03-12"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-12",
+    "events": [
+      {
+        "id": "normal-gpu-old-1",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 80,
+        "timestamp": "2026-03-07T09:20:10"
+      },
+      {
+        "id": "normal-storage-1",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 20,
+        "timestamp": "2026-03-08T11:10:10"
+      },
+      {
+        "id": "normal-bob-storage-1",
+        "customer": "bob_labs",
+        "meter": "storage_gb",
+        "value": 30,
+        "timestamp": "2026-03-08T11:10:15"
+      },
+      {
+        "id": "normal-opto-gpu",
+        "customer": "opto_labs",
+        "meter": "gpu_minutes",
+        "value": 20,
+        "timestamp": "2026-03-08T14:40:10"
+      },
+      {
+        "id": "normal-api-1",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 1500,
+        "timestamp": "2026-03-09T10:15:10"
+      },
+      {
+        "id": "normal-bob-api-1",
+        "customer": "bob_labs",
+        "meter": "api_requests",
+        "value": 2400,
+        "timestamp": "2026-03-09T10:15:15"
+      },
+      {
+        "id": "normal-api-2",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-03-09T10:15:35"
+      },
+      {
+        "id": "normal-bob-api-2",
+        "customer": "bob_labs",
+        "meter": "api_requests",
+        "value": 1700,
+        "timestamp": "2026-03-09T10:15:40"
+      },
+      {
+        "id": "normal-api-2-part-2",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-03-09T10:15:45"
+      },
+      {
+        "id": "normal-storage-2",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 40,
+        "timestamp": "2026-03-09T11:10:20"
+      },
+      {
+        "id": "normal-seats-1",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 12,
+        "timestamp": "2026-03-09T12:20:10"
+      },
+      {
+        "id": "normal-bob-seats-1",
+        "customer": "bob_labs",
+        "meter": "seats",
+        "value": 28,
+        "timestamp": "2026-03-09T12:20:15"
+      },
+      {
+        "id": "normal-bob-gpu-old-1",
+        "customer": "bob_labs",
+        "meter": "gpu_minutes",
+        "value": 45,
+        "timestamp": "2026-03-10T09:20:15"
+      },
+      {
+        "id": "normal-gpu-old-2",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 60,
+        "timestamp": "2026-03-10T09:20:20"
+      },
+      {
+        "id": "normal-bob-gpu-old-2",
+        "customer": "bob_labs",
+        "meter": "gpu_minutes",
+        "value": 25,
+        "timestamp": "2026-03-10T09:20:25"
+      },
+      {
+        "id": "normal-bob-storage-2",
+        "customer": "bob_labs",
+        "meter": "storage_gb",
+        "value": 70,
+        "timestamp": "2026-03-10T11:10:25"
+      },
+      {
+        "id": "normal-ale-storage",
+        "customer": "ale_industries",
+        "meter": "storage_gb",
+        "value": 150,
+        "timestamp": "2026-03-10T13:30:10"
+      },
+      {
+        "id": "normal-storage-3",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 30,
+        "timestamp": "2026-03-11T11:10:30"
+      },
+      {
+        "id": "normal-bob-storage-3",
+        "customer": "bob_labs",
+        "meter": "storage_gb",
+        "value": 55,
+        "timestamp": "2026-03-11T11:10:35"
+      },
+      {
+        "id": "normal-seats-2",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 18,
+        "timestamp": "2026-03-11T12:20:20"
+      },
+      {
+        "id": "normal-bob-seats-2",
+        "customer": "bob_labs",
+        "meter": "seats",
+        "value": 44,
+        "timestamp": "2026-03-11T12:20:25"
+      },
+      {
+        "id": "normal-deployment-1",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 3,
+        "timestamp": "2026-03-11T15:10:11"
+      },
+      {
+        "id": "normal-deployment-2",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 5,
+        "timestamp": "2026-03-11T15:10:12"
+      },
+      {
+        "id": "normal-deployment-3",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 7,
+        "timestamp": "2026-03-11T15:10:13"
+      },
+      {
+        "id": "normal-deployment-4",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 9,
+        "timestamp": "2026-03-11T15:10:14"
+      },
+      {
+        "id": "normal-bob-deployment-1",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 3,
+        "timestamp": "2026-03-11T16:10:11"
+      },
+      {
+        "id": "normal-bob-deployment-2",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 5,
+        "timestamp": "2026-03-11T16:10:12"
+      },
+      {
+        "id": "normal-bob-deployment-3",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 7,
+        "timestamp": "2026-03-11T16:10:13"
+      },
+      {
+        "id": "normal-bob-deployment-4",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 9,
+        "timestamp": "2026-03-11T16:10:14"
+      },
+      {
+        "id": "normal-bob-deployment-5",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 11,
+        "timestamp": "2026-03-11T16:10:15"
+      },
+      {
+        "id": "normal-bob-deployment-6",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 13,
+        "timestamp": "2026-03-11T16:10:16"
+      },
+      {
+        "id": "normal-bob-deployment-7",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 15,
+        "timestamp": "2026-03-11T16:10:17"
+      },
+      {
+        "id": "normal-bob-deployment-8",
+        "customer": "bob_labs",
+        "meter": "deployments",
+        "value": 17,
+        "timestamp": "2026-03-11T16:10:18"
+      }
+    ]
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-16",
+    "meter": "storage_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-24",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 3
+    }
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-20",
+    "events": [
+      {
+        "id": "normal-gpu-new-1",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 30,
+        "timestamp": "2026-03-20T09:20:10"
+      },
+      {
+        "id": "normal-bob-gpu-new-1",
+        "customer": "bob_labs",
+        "meter": "gpu_minutes",
+        "value": 10,
+        "timestamp": "2026-03-20T09:20:15"
+      },
+      {
+        "id": "normal-gpu-new-2",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 50,
+        "timestamp": "2026-03-20T09:20:35"
+      },
+      {
+        "id": "normal-api-3",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 250,
+        "timestamp": "2026-03-20T10:15:10"
+      },
+      {
+        "id": "normal-bob-api-3",
+        "customer": "bob_labs",
+        "meter": "api_requests",
+        "value": 2000,
+        "timestamp": "2026-03-20T10:15:15"
+      },
+      {
+        "id": "normal-bob-storage-4",
+        "customer": "bob_labs",
+        "meter": "storage_gb",
+        "value": 60,
+        "timestamp": "2026-03-20T11:10:15"
+      },
+      {
+        "id": "normal-bob-seats-3",
+        "customer": "bob_labs",
+        "meter": "seats",
+        "value": 68,
+        "timestamp": "2026-03-20T12:20:15"
+      }
+    ]
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-03-21",
+    "action": "do",
+    "eventId": "normal-storage-2"
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-21",
+    "customer": null
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-03-22",
+    "action": "undo",
+    "eventId": "normal-storage-2"
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-03-22",
+    "action": "do",
+    "eventId": "normal-bob-deployment-8"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-24",
+    "events": [
+      {
+        "id": "normal-gpu-new-3",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 20,
+        "timestamp": "2026-03-24T09:20:10"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-03-25",
+    "customer": "lilith_labs"
+  },
+  {
+    "command": "viewPricing",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-25"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-28",
+    "events": [
+      {
+        "id": "normal-bob-storage-new-1",
+        "customer": "bob_labs",
+        "meter": "storage_gb",
+        "value": 65,
+        "timestamp": "2026-03-25T11:10:15"
+      },
+      {
+        "id": "normal-bob-storage-new-2",
+        "customer": "bob_labs",
+        "meter": "storage_gb",
+        "value": 85,
+        "timestamp": "2026-03-26T11:10:15"
+      },
+      {
+        "id": "normal-bob-gpu-new-2",
+        "customer": "bob_labs",
+        "meter": "gpu_minutes",
+        "value": 35,
+        "timestamp": "2026-03-27T09:20:15"
+      },
+      {
+        "id": "normal-bob-storage-new-3",
+        "customer": "bob_labs",
+        "meter": "storage_gb",
+        "value": 75,
+        "timestamp": "2026-03-27T11:10:15"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "bob_labs",
+    "timestamp": "2026-03-29",
+    "customer": null
+  },
+  {
+    "command": "viewNotifications",
+    "username": "bob_labs",
+    "timestamp": "2026-03-29"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "giulio_p",
+    "timestamp": "2026-04-03"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-03",
+    "invoiceId": 2,
+    "format": "JSON",
+    "fileName": "out_20_lilith_march.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-04-03",
+    "invoiceId": 2,
+    "format": "CSV",
+    "fileName": "out_20_lilith_march.csv"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03",
+    "customer": null,
+    "amount": 1000,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-03",
+    "customer": "lilith_labs",
+    "invoiceId": 2,
+    "amount": 200,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-05",
+    "customer": "lilith_labs",
+    "invoiceId": 2,
+    "amount": 940,
+    "reason": "SERVICE_OUTAGE"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-05",
+    "customer": "ale_industries",
+    "invoiceId": 0,
+    "amount": 40,
+    "reason": "FRAUD"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "alexia_o",
+    "timestamp": "2026-04-05"
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-05",
+    "customer": null
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-04-05",
+    "customer": "ale_industries"
+  },
+  {
+    "command": "payInvoice",
+    "username": "opto_labs",
+    "timestamp": "2026-04-05",
+    "customer": null,
+    "invoiceId": 3
+  },
+  {
+    "command": "topUpWallet",
+    "username": "giulio_p",
+    "timestamp": "2026-04-06",
+    "customer": "opto_labs",
+    "amount": 500,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "payInvoice",
+    "username": "opto_labs",
+    "timestamp": "2026-04-06",
+    "customer": null,
+    "invoiceId": 3
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-07",
+    "customer": "bob_labs",
+    "invoiceId": 1,
+    "amount": 180,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "viewAccount",
+    "username": "opto_labs",
+    "timestamp": "2026-04-10"
+  },
+  {
+    "command": "viewWallet",
+    "username": "opto_labs",
+    "timestamp": "2026-04-10",
+    "customer": null
+  },
+  {
+    "command": "viewInvoices",
+    "username": "opto_labs",
+    "timestamp": "2026-04-10"
+  },
+  {
+    "command": "viewAccount",
+    "username": "bob_labs",
+    "timestamp": "2026-04-10"
+  },
+  {
+    "command": "viewWallet",
+    "username": "bob_labs",
+    "timestamp": "2026-04-10",
+    "customer": null
+  },
+  {
+    "command": "viewInvoices",
+    "username": "bob_labs",
+    "timestamp": "2026-04-10"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "invoiceId": 3,
+    "format": "JSON",
+    "fileName": "out_20_opto_march.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "bob_labs",
+    "timestamp": "2026-04-10",
+    "invoiceId": 1,
+    "format": "CSV",
+    "fileName": "out_20_bob_march_refunded_part.csv"
+  },
+  {
+    "command": "viewBalance",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-10"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-10"
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-10"
+  }
+]

@@ -1,0 +1,6 @@
+invoiceId,customer,period,lineType,description,quantity,amount
+1,lilith_labs,2026-03,USAGE,storage_gb v1,20,40
+1,lilith_labs,2026-03,DISCOUNT,Discount applied,,-40
+1,lilith_labs,2026-03,CREDIT,Credits applied,,0
+1,lilith_labs,2026-03,TAX,Tax,,4
+1,lilith_labs,2026-03,TOTAL,Total (USD),,4

@@ -1,0 +1,37 @@
+{
+  "id": 7,
+  "customer": "ale_industries",
+  "period": "2026-07",
+  "issuedAt": "2026-08-01",
+  "status": "PAID",
+  "currency": "USD",
+  "lines": [
+    {
+      "type": "USAGE",
+      "meter": "api_requests",
+      "priceVersion": "v1",
+      "quantity": 3000,
+      "amount": 15
+    },
+    {
+      "type": "USAGE",
+      "meter": "seats",
+      "priceVersion": "v1",
+      "quantity": 11,
+      "amount": 110
+    },
+    {
+      "type": "USAGE",
+      "meter": "seats",
+      "priceVersion": "v2",
+      "quantity": 12,
+      "amount": 108
+    }
+  ],
+  "subtotal": 233,
+  "discount": 23,
+  "credits": 20,
+  "tax": 23,
+  "total": 213,
+  "refunded": 100
+}

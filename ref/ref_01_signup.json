@@ -1,0 +1,104 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-10",
+    "error": "Username lilith_labs already in use."
+  },
+  {
+    "command": "signUp",
+    "username": "alexia_o",
+    "timestamp": "2026-03-10",
+    "error": "Username alexia_o already in use."
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-10",
+    "balance": 0,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2026-04-01"
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "ghost_user",
+    "timestamp": "2026-03-11",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "viewAccount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-11",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER; user role SUPPORT."
+  },
+  {
+    "command": "viewAccount",
+    "username": "sarra_m",
+    "timestamp": "2026-03-11",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER; user role MANAGER."
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-03-31",
+    "balance": 0,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2026-04-01"
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "balance": 0,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2026-05-01"
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-04-04",
+    "balance": 0,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2026-05-01"
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_robots",
+    "timestamp": "2026-12-31",
+    "balance": 0,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2027-01-01"
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-31",
+    "balance": 0,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2027-01-01"
+    }
+  },
+  {
+    "command": "signUp",
+    "username": "ale_robots",
+    "timestamp": "2027-01-15",
+    "error": "Username ale_robots already in use."
+  }
+]

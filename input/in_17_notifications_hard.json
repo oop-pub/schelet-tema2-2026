@@ -1,0 +1,184 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "meter": "api_requests"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "ale_industries",
+    "timestamp": "2026-03-02",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-03",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-20",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 4
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-03",
+    "meter": "api_requests",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-21",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 1
+    }
+  },
+  {
+    "command": "signUp",
+    "username": "opto_labs",
+    "timestamp": "2026-03-04"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "opto_labs",
+    "timestamp": "2026-03-04",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-04"
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "ale_industries",
+    "timestamp": "2026-03-05",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-06",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-25",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 3
+    }
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-07"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-07"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-07"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-07"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "ale_industries",
+    "timestamp": "2026-03-08",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-08"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-09",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-25",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 99
+    }
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "giulio_p",
+    "timestamp": "2026-03-09",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-10",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-04-01",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 2
+    }
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "sarra_m",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-20"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-25"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-04-02"
+  }
+]

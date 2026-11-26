@@ -1,0 +1,159 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "viewPricing",
+    "username": "ghost_user",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-12",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-16",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 6
+        },
+        {
+          "upTo": 1000,
+          "unitPrice": 5
+        },
+        {
+          "upTo": null,
+          "unitPrice": 4
+        }
+      ]
+    }
+  },
+  {
+    "command": "viewPricing",
+    "username": "giulio_p",
+    "timestamp": "2026-03-12"
+  },
+  {
+    "command": "changePricing",
+    "username": "ghost_user",
+    "timestamp": "2026-03-17",
+    "meter": "api_requests",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-18",
+    "model": {
+      "type": "PACKAGE",
+      "packageSize": 1000,
+      "packagePrice": 10
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "sarra_m",
+    "timestamp": "2026-03-20",
+    "meter": "storage_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-25",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 4
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-25",
+    "meter": "bandwith_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-04-05",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 4
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-25",
+    "meter": "api_requests",
+    "currency": "EUR",
+    "effectiveFrom": "2026-04-05",
+    "model": {
+      "type": "PACKAGE",
+      "packageSize": 1000,
+      "packagePrice": 8
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-25",
+    "meter": "storage_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-05",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 4
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-28",
+    "meter": "api_requests",
+    "currency": "USD",
+    "effectiveFrom": "2026-04-05",
+    "model": {
+      "type": "PACKAGE",
+      "packageSize": 1000,
+      "packagePrice": 8
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-29",
+    "meter": "storage_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-29",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 4
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-29",
+    "meter": "api_requests",
+    "currency": "USD",
+    "effectiveFrom": "2026-04-05",
+    "model": {
+      "type": "PACKAGE",
+      "packageSize": 1000,
+      "packagePrice": 9
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-04-10",
+    "meter": "storage_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-28",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 4
+    }
+  },
+  {
+    "command": "viewPricing",
+    "username": "sarra_m",
+    "timestamp": "2026-04-15"
+  }
+]

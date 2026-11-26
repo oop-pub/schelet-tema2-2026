@@ -1,0 +1,23 @@
+{
+  "id": 3,
+  "customer": "opto_labs",
+  "period": "2026-03",
+  "issuedAt": "2026-04-01",
+  "status": "PAID",
+  "currency": "USD",
+  "lines": [
+    {
+      "type": "USAGE",
+      "meter": "gpu_minutes",
+      "priceVersion": "v1",
+      "quantity": 20,
+      "amount": 100
+    }
+  ],
+  "subtotal": 100,
+  "discount": 20,
+  "credits": 0,
+  "tax": 10,
+  "total": 90,
+  "refunded": 0
+}

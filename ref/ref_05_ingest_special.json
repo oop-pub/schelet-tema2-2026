@@ -1,0 +1,115 @@
+[
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-03-14",
+    "error": "Event evt-2 is already voided."
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-03-14",
+    "error": "Event evt-1 is already registered."
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-03-14",
+    "error": "Event evt-4 not found."
+  },
+  {
+    "command": "voidUsage",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-14",
+    "error": "The user does not have permission to execute this command: required role SUPPORT, ADMIN; user role MANAGER."
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-03-14",
+    "customer": "lilith_labs",
+    "period": "2026-03",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 2000
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-16",
+    "customer": "lilith_labs",
+    "period": "2026-03",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 2500
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-04-02",
+    "error": "Event evt-1 belongs to a finalized invoice and cannot be voided."
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-04-08",
+    "error": "Event evt-6: customer lilith_labs is suspended. Event rejected."
+  }
+]

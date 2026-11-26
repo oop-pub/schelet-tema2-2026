@@ -1,0 +1,9 @@
+invoiceId,customer,period,lineType,description,quantity,amount
+2,lilith_labs,2026-06,USAGE,deployments v1,5,20
+2,lilith_labs,2026-06,USAGE,gpu_minutes v1,100,500
+2,lilith_labs,2026-06,USAGE,seats v1,10,120
+2,lilith_labs,2026-06,USAGE,storage_gb v1,15,30
+2,lilith_labs,2026-06,DISCOUNT,Discount applied,,-101
+2,lilith_labs,2026-06,CREDIT,Credits applied,,-45
+2,lilith_labs,2026-06,TAX,Tax,,67
+2,lilith_labs,2026-06,TOTAL,Total (USD),,591

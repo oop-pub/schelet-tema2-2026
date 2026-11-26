@@ -1,0 +1,205 @@
+[
+  {
+    "command": "viewPricing",
+    "username": "ghost_user",
+    "timestamp": "2026-03-11",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "viewPricing",
+    "username": "giulio_p",
+    "timestamp": "2026-03-12",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER, ADMIN, MANAGER; user role SUPPORT."
+  },
+  {
+    "command": "changePricing",
+    "username": "ghost_user",
+    "timestamp": "2026-03-17",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "changePricing",
+    "username": "sarra_m",
+    "timestamp": "2026-03-20",
+    "error": "The user does not have permission to execute this command: required role ADMIN; user role MANAGER."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-25",
+    "error": "Unknown meter bandwith_gb."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-25",
+    "error": "Unsupported currency EUR."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-25",
+    "error": "Price effective date cannot be in the past."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-29",
+    "error": "Price effective date must be after 2026-04-05 (version v2)."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-04-10",
+    "error": "Price effective date cannot be in the past."
+  },
+  {
+    "command": "viewPricing",
+    "username": "sarra_m",
+    "timestamp": "2026-04-15",
+    "currency": "USD",
+    "prices": [
+      {
+        "name": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 1000,
+              "packagePrice": 5
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-04-05",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 1000,
+              "packagePrice": 8
+            }
+          }
+        ]
+      },
+      {
+        "name": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 5,
+              "packagePrice": 20
+            }
+          }
+        ]
+      },
+      {
+        "name": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 5
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 4
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 3
+                }
+              ]
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-03-16",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 6
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 5
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "VOLUME",
+              "tiers": [
+                {
+                  "upTo": 10,
+                  "unitPrice": 12
+                },
+                {
+                  "upTo": 50,
+                  "unitPrice": 10
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 8
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 2
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-03-29",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 4
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

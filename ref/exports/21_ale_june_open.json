@@ -1,0 +1,37 @@
+{
+  "id": 0,
+  "customer": "ale_industries",
+  "period": "2026-06",
+  "issuedAt": "2026-07-01",
+  "status": "OPEN",
+  "currency": "USD",
+  "lines": [
+    {
+      "type": "USAGE",
+      "meter": "api_requests",
+      "priceVersion": "v1",
+      "quantity": 2500,
+      "amount": 15
+    },
+    {
+      "type": "USAGE",
+      "meter": "deployments",
+      "priceVersion": "v1",
+      "quantity": 6,
+      "amount": 40
+    },
+    {
+      "type": "USAGE",
+      "meter": "gpu_minutes",
+      "priceVersion": "v1",
+      "quantity": 101,
+      "amount": 504
+    }
+  ],
+  "subtotal": 559,
+  "discount": 0,
+  "credits": 0,
+  "tax": 56,
+  "total": 615,
+  "refunded": 0
+}

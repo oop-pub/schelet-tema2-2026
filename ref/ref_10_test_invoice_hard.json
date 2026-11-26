@@ -1,0 +1,568 @@
+[
+  {
+    "command": "viewPricing",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-11",
+    "currency": "USD",
+    "prices": [
+      {
+        "name": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "PACKAGE",
+          "packageSize": 1000,
+          "packagePrice": 5
+        }
+      },
+      {
+        "name": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "PACKAGE",
+          "packageSize": 5,
+          "packagePrice": 20
+        }
+      },
+      {
+        "name": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "version": "v2",
+        "effectiveFrom": "2026-03-10",
+        "pricing": {
+          "type": "GRADUATED",
+          "tiers": [
+            {
+              "upTo": 100,
+              "unitPrice": 6
+            },
+            {
+              "upTo": 1000,
+              "unitPrice": 5
+            },
+            {
+              "upTo": null,
+              "unitPrice": 4
+            }
+          ]
+        }
+      },
+      {
+        "name": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "VOLUME",
+          "tiers": [
+            {
+              "upTo": 10,
+              "unitPrice": 12
+            },
+            {
+              "upTo": 50,
+              "unitPrice": 10
+            },
+            {
+              "upTo": null,
+              "unitPrice": 8
+            }
+          ]
+        }
+      },
+      {
+        "name": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "PER_UNIT",
+          "unitPrice": 2
+        }
+      }
+    ]
+  },
+  {
+    "command": "viewPricing",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-25",
+    "currency": "USD",
+    "prices": [
+      {
+        "name": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "version": "v3",
+        "effectiveFrom": "2026-03-20",
+        "pricing": {
+          "type": "PACKAGE",
+          "packageSize": 1000,
+          "packagePrice": 6
+        }
+      },
+      {
+        "name": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "PACKAGE",
+          "packageSize": 5,
+          "packagePrice": 20
+        }
+      },
+      {
+        "name": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "version": "v2",
+        "effectiveFrom": "2026-03-10",
+        "pricing": {
+          "type": "GRADUATED",
+          "tiers": [
+            {
+              "upTo": 100,
+              "unitPrice": 6
+            },
+            {
+              "upTo": 1000,
+              "unitPrice": 5
+            },
+            {
+              "upTo": null,
+              "unitPrice": 4
+            }
+          ]
+        }
+      },
+      {
+        "name": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "VOLUME",
+          "tiers": [
+            {
+              "upTo": 10,
+              "unitPrice": 12
+            },
+            {
+              "upTo": 50,
+              "unitPrice": 10
+            },
+            {
+              "upTo": null,
+              "unitPrice": 8
+            }
+          ]
+        }
+      },
+      {
+        "name": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "version": "v2",
+        "effectiveFrom": "2026-03-12",
+        "pricing": {
+          "type": "PER_UNIT",
+          "unitPrice": 3
+        }
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-31",
+    "customer": "lilith_labs",
+    "period": "2026-03",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 6000
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 1111
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 50
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-03",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "OPEN",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 4000,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v2",
+            "quantity": 1000,
+            "amount": 4
+          },
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v3",
+            "quantity": 1000,
+            "amount": 6
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 100,
+            "amount": 500
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v2",
+            "quantity": 1011,
+            "amount": 5144
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 20,
+            "amount": 40
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v2",
+            "quantity": 50,
+            "amount": 150
+          }
+        ],
+        "subtotal": 5864,
+        "discount": 0,
+        "credits": 0,
+        "tax": 586,
+        "total": 6450,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-03",
+    "balance": 100,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 100,
+        "timestamp": "2026-03-02"
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "alexia_o",
+    "timestamp": "2026-04-10",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 4000,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v2",
+            "quantity": 1000,
+            "amount": 4
+          },
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v3",
+            "quantity": 1000,
+            "amount": 6
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 100,
+            "amount": 500
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v2",
+            "quantity": 1011,
+            "amount": 5144
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 20,
+            "amount": 40
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v2",
+            "quantity": 50,
+            "amount": 150
+          }
+        ],
+        "subtotal": 5864,
+        "discount": 0,
+        "credits": 0,
+        "tax": 586,
+        "total": 6450,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-10",
+    "balance": 93650,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 100,
+        "timestamp": "2026-03-02"
+      },
+      {
+        "id": 1,
+        "type": "TOP_UP",
+        "amount": 100000,
+        "timestamp": "2026-04-03"
+      },
+      {
+        "id": 2,
+        "type": "CHARGE",
+        "amount": -6450,
+        "timestamp": "2026-04-04",
+        "invoiceId": 0
+      }
+    ]
+  },
+  {
+    "command": "viewPricing",
+    "username": "alexia_o",
+    "timestamp": "2026-04-25",
+    "currency": "USD",
+    "prices": [
+      {
+        "name": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 1000,
+              "packagePrice": 5
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-03-15",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 1000,
+              "packagePrice": 4
+            }
+          },
+          {
+            "version": "v3",
+            "effectiveFrom": "2026-03-20",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 1000,
+              "packagePrice": 6
+            }
+          }
+        ]
+      },
+      {
+        "name": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 5,
+              "packagePrice": 20
+            }
+          }
+        ]
+      },
+      {
+        "name": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 5
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 4
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 3
+                }
+              ]
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-03-10",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 6
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 5
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 4
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "VOLUME",
+              "tiers": [
+                {
+                  "upTo": 10,
+                  "unitPrice": 12
+                },
+                {
+                  "upTo": 50,
+                  "unitPrice": 10
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 8
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 2
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-03-12",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 3
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

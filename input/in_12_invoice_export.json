@@ -1,0 +1,191 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "opto_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 500,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 10,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05",
+    "invoiceId": 0,
+    "format": "CSV",
+    "fileName": "out_12_too_early.csv"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-20",
+    "events": [
+      {
+        "id": "evt-1",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 40,
+        "timestamp": "2026-03-10T09:00:00"
+      },
+      {
+        "id": "evt-2",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 1200,
+        "timestamp": "2026-03-11T10:00:00"
+      },
+      {
+        "id": "evt-3",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 65,
+        "timestamp": "2026-03-15T11:00:00"
+      },
+      {
+        "id": "evt-4",
+        "customer": "ale_industries",
+        "meter": "api_requests",
+        "value": 2500,
+        "timestamp": "2026-03-16T12:00:00"
+      },
+      {
+        "id": "evt-5",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 800,
+        "timestamp": "2026-03-18T13:00:00"
+      }
+    ]
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "invoiceId": 1,
+    "format": "CSV",
+    "fileName": "out_12_lilith_march.csv"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "invoiceId": 1,
+    "format": "JSON",
+    "fileName": "out_12_lilith_march.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "invoiceId": 0,
+    "format": "CSV",
+    "fileName": "out_12_stolen.csv"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "invoiceId": 0,
+    "format": "XML",
+    "fileName": "out_12_stolen.xml"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-02",
+    "invoiceId": 1,
+    "format": "XML",
+    "fileName": "out_12_lilith_march.xml"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-02",
+    "invoiceId": 5,
+    "format": "JSON",
+    "fileName": "out_12_missing.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-02",
+    "invoiceId": 0,
+    "format": "CSV",
+    "fileName": "out_12_ale_march.csv"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-04-02",
+    "invoiceId": 2,
+    "format": "JSON",
+    "fileName": "out_12_opto_march.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-04-02",
+    "invoiceId": 2,
+    "format": "PDF",
+    "fileName": "out_12_opto_march.pdf"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "sarra_m",
+    "timestamp": "2026-04-03",
+    "invoiceId": 1,
+    "format": "CSV",
+    "fileName": "out_12_manager.csv"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "ghost_user",
+    "timestamp": "2026-04-03",
+    "invoiceId": 1,
+    "format": "CSV",
+    "fileName": "out_12_ghost.csv"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03",
+    "invoiceId": 0,
+    "format": "JSON",
+    "fileName": "out_12_my_invoice.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03",
+    "invoiceId": 1,
+    "format": "CSV",
+    "fileName": "out_12_not_mine.csv"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "giulio_p",
+    "timestamp": "2026-04-03"
+  }
+]

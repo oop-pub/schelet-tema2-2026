@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "customer": "lilith_labs",
+  "period": "2026-03",
+  "issuedAt": "2026-04-01",
+  "status": "PAID",
+  "currency": "USD",
+  "lines": [
+    {
+      "type": "USAGE",
+      "meter": "api_requests",
+      "priceVersion": "v1",
+      "quantity": 2000,
+      "amount": 10
+    },
+    {
+      "type": "USAGE",
+      "meter": "storage_gb",
+      "priceVersion": "v1",
+      "quantity": 65,
+      "amount": 130
+    }
+  ],
+  "subtotal": 140,
+  "discount": 0,
+  "credits": 0,
+  "tax": 14,
+  "total": 154,
+  "refunded": 0
+}

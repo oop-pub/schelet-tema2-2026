@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "customer": "opto_labs",
+  "period": "2026-03",
+  "issuedAt": "2026-04-01",
+  "status": "PAID",
+  "currency": "USD",
+  "lines": [],
+  "subtotal": 0,
+  "discount": 0,
+  "credits": 0,
+  "tax": 0,
+  "total": 0,
+  "refunded": 0
+}

@@ -1,0 +1,2641 @@
+[
+  {
+    "command": "signUp",
+    "username": "giulio_p",
+    "timestamp": "2026-06-01",
+    "error": "Username giulio_p already in use."
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-06-01",
+    "report": {
+      "totalTransactions": 0,
+      "transactionsByType": {
+        "TOP_UP": 0,
+        "CHARGE": 0,
+        "REFUND": 0
+      },
+      "amountByType": {
+        "TOP_UP": 0.0,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 0.0,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "viewBalance",
+    "username": "sarra_m",
+    "timestamp": "2026-06-01",
+    "balance": 0,
+    "transactions": []
+  },
+  {
+    "command": "viewInvoices",
+    "username": "alexia_o",
+    "timestamp": "2026-06-01",
+    "invoices": []
+  },
+  {
+    "command": "viewWallet",
+    "username": "opto_labs",
+    "timestamp": "2026-06-01",
+    "balance": 0,
+    "credits": 0,
+    "transactions": []
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-01",
+    "error": "Invoice 0 not found."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "giulio_p",
+    "timestamp": "2026-06-02",
+    "error": "Customer ghost_corp not found."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-02",
+    "error": "Amount must be positive and non-zero."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-02",
+    "error": "Amount must be positive and non-zero."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-02",
+    "error": "Invalid payment method PAYPAL."
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-06-02",
+    "error": "Customer ghost_corp not found."
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "error": "Customer lilith_labs is already subscribed to meter gpu_minutes."
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "error": "Unknown meter bandwidth."
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "error": "Customer lilith_labs is not subscribed to meter deployments."
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "error": "Unknown meter bandwidth."
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-06-03",
+    "error": "Customer ghost_corp not found."
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-06-03",
+    "error": "validFrom cannot be after validTo."
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-06-04",
+    "error": "Customer ghost_corp not found."
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-06-04",
+    "error": "Expiry date must be after the current date."
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-06-04",
+    "error": "Expiry date must be after the current date."
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-10",
+    "error": "Event cy-03: unknown customer ghost_corp."
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-10",
+    "error": "Event gh-01: unknown customer ghost_corp."
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-06-16",
+    "error": "Event st-stor-2 is already voided."
+  },
+  {
+    "command": "voidUsage",
+    "username": "cosmin_a",
+    "timestamp": "2026-06-16",
+    "error": "Event li-gpu-1 is already registered."
+  },
+  {
+    "command": "voidUsage",
+    "username": "sarra_m",
+    "timestamp": "2026-06-16",
+    "error": "The user does not have permission to execute this command: required role SUPPORT, ADMIN; user role MANAGER."
+  },
+  {
+    "command": "voidUsage",
+    "username": "stark_industries",
+    "timestamp": "2026-06-16",
+    "error": "The user does not have permission to execute this command: required role SUPPORT, ADMIN; user role CUSTOMER."
+  },
+  {
+    "command": "changePricing",
+    "username": "ghost_user",
+    "timestamp": "2026-06-16",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-20",
+    "balance": 1000,
+    "credits": 65,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 1000,
+        "timestamp": "2026-06-02"
+      }
+    ]
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-06-20",
+    "error": "Unknown meter bandwidth."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-06-20",
+    "error": "Unsupported currency EUR."
+  },
+  {
+    "command": "changePricing",
+    "username": "andrei_i",
+    "timestamp": "2026-06-20",
+    "error": "The user does not have permission to execute this command: required role ADMIN; user role SUPPORT."
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-21",
+    "notifications": [
+      {
+        "timestamp": "2026-06-20",
+        "message": "Price of gpu_minutes changed: version v2 effective from 2026-07-16."
+      }
+    ]
+  },
+  {
+    "command": "viewPricing",
+    "username": "sarra_m",
+    "timestamp": "2026-06-21",
+    "currency": "USD",
+    "prices": [
+      {
+        "name": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 1000,
+              "packagePrice": 5
+            }
+          }
+        ]
+      },
+      {
+        "name": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 5,
+              "packagePrice": 20
+            }
+          }
+        ]
+      },
+      {
+        "name": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 5
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 4
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 3
+                }
+              ]
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-07-16",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 4
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 3
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "VOLUME",
+              "tiers": [
+                {
+                  "upTo": 10,
+                  "unitPrice": 12
+                },
+                {
+                  "upTo": 50,
+                  "unitPrice": 10
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 8
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "cosmin_a",
+    "timestamp": "2026-06-21",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "gabriel_v",
+    "timestamp": "2026-06-21",
+    "notifications": []
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-06-26",
+    "error": "Event cy-15 not found."
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-26",
+    "error": "Event nv-0: unknown customer nova_tech."
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-06-26",
+    "customer": "cyberdyne",
+    "period": "2026-06",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 1000
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 6
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 60
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-06-28",
+    "error": "Customer ghost_corp not found."
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-07-01",
+    "report": {
+      "totalTransactions": 10,
+      "transactionsByType": {
+        "TOP_UP": 7,
+        "CHARGE": 3,
+        "REFUND": 0
+      },
+      "exposureByType": {
+        "TOP_UP": 65.31,
+        "CHARGE": 45.83,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "viewInvoices",
+    "username": "cvinti_r",
+    "timestamp": "2026-07-01",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "OPEN",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 2500,
+            "amount": 15
+          },
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 6,
+            "amount": 40
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 101,
+            "amount": 504
+          }
+        ],
+        "subtotal": 559,
+        "discount": 0,
+        "credits": 0,
+        "tax": 56,
+        "total": 615,
+        "refunded": 0
+      },
+      {
+        "id": 1,
+        "customer": "cyberdyne",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 5
+          },
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 6,
+            "amount": 40
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 60,
+            "amount": 120
+          }
+        ],
+        "subtotal": 165,
+        "discount": 0,
+        "credits": 0,
+        "tax": 17,
+        "total": 182,
+        "refunded": 0
+      },
+      {
+        "id": 2,
+        "customer": "lilith_labs",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 5,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 100,
+            "amount": 500
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 10,
+            "amount": 120
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 15,
+            "amount": 30
+          }
+        ],
+        "subtotal": 670,
+        "discount": 101,
+        "credits": 45,
+        "tax": 67,
+        "total": 591,
+        "refunded": 0
+      },
+      {
+        "id": 3,
+        "customer": "nova_tech",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 2,
+            "amount": 4
+          }
+        ],
+        "subtotal": 4,
+        "discount": 4,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      },
+      {
+        "id": 4,
+        "customer": "opto_labs",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "OPEN",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 5
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 4100
+          }
+        ],
+        "subtotal": 4105,
+        "discount": 0,
+        "credits": 0,
+        "tax": 411,
+        "total": 4516,
+        "refunded": 0
+      },
+      {
+        "id": 5,
+        "customer": "stark_industries",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1001,
+            "amount": 10
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 1001,
+            "amount": 4103
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 51,
+            "amount": 408
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 500,
+            "amount": 1000
+          }
+        ],
+        "subtotal": 5521,
+        "discount": 300,
+        "credits": 0,
+        "tax": 552,
+        "total": 5773,
+        "refunded": 0
+      },
+      {
+        "id": 6,
+        "customer": "wayne_corp",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "OPEN",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 6,
+            "amount": 40
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 50,
+            "amount": 500
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 300,
+            "amount": 600
+          }
+        ],
+        "subtotal": 1140,
+        "discount": 0,
+        "credits": 0,
+        "tax": 114,
+        "total": 1254,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Cannot grant credits: customer ale_industries subscription is PAST_DUE."
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Cannot apply discount: customer ale_industries subscription is PAST_DUE."
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Event al-api-2 belongs to a finalized invoice and cannot be voided."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "payInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Invoice 0 not found."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-01",
+    "error": "Invoice 5 not found."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-01",
+    "error": "Invoice 99 not found."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-07-01",
+    "error": "Unsupported export format PDF."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Customer ghost_corp not found."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Invoice 5 not found."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Invoice 99 not found."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "error": "Invalid refund reason MISTAKE."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-07-01",
+    "error": "The user does not have permission to execute this command: required role SUPPORT; user role ADMIN."
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "nova_tech",
+    "timestamp": "2026-07-01",
+    "customer": "nova_tech",
+    "period": "2026-07",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 1
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "command": "viewAccount",
+    "username": "wayne_corp",
+    "timestamp": "2026-07-02",
+    "balance": 1254,
+    "discounts": [],
+    "subscription": {
+      "status": "PAST_DUE",
+      "nextBillingDate": "2026-07-04",
+      "unpaidInvoiceId": 6
+    }
+  },
+  {
+    "command": "payInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-03",
+    "error": "Customer ghost_corp not found."
+  },
+  {
+    "command": "payInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-03",
+    "error": "Only OPEN or UNCOLLECTIBLE invoices can be paid."
+  },
+  {
+    "command": "payInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-03",
+    "error": "Invoice 5 not found."
+  },
+  {
+    "command": "payInvoice",
+    "username": "wayne_corp",
+    "timestamp": "2026-07-03",
+    "error": "Invoice 99 not found."
+  },
+  {
+    "command": "voidUsage",
+    "username": "cvinti_r",
+    "timestamp": "2026-07-05",
+    "error": "Event st-stor-2 belongs to a finalized invoice and cannot be voided."
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-07-05",
+    "error": "Event st-stor-2 belongs to a finalized invoice and cannot be voided."
+  },
+  {
+    "command": "voidUsage",
+    "username": "andrei_i",
+    "timestamp": "2026-07-05",
+    "error": "Event al-api-1 belongs to a finalized invoice and cannot be voided."
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-07-05",
+    "customer": "opto_labs",
+    "period": "2026-07",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 20
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-07-08",
+    "error": "Event op-dep-1: customer opto_labs is suspended. Event rejected."
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-07-10",
+    "error": "Cannot grant credits: customer opto_labs subscription is SUSPENDED."
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-07-10",
+    "error": "Cannot apply discount: customer opto_labs subscription is SUSPENDED."
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-10",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "viewPricing",
+    "username": "opto_labs",
+    "timestamp": "2026-07-20",
+    "currency": "USD",
+    "prices": [
+      {
+        "name": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "PACKAGE",
+          "packageSize": 1000,
+          "packagePrice": 5
+        }
+      },
+      {
+        "name": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "version": "v1",
+        "effectiveFrom": "2026-01-01",
+        "pricing": {
+          "type": "PACKAGE",
+          "packageSize": 5,
+          "packagePrice": 20
+        }
+      },
+      {
+        "name": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "version": "v2",
+        "effectiveFrom": "2026-07-16",
+        "pricing": {
+          "type": "GRADUATED",
+          "tiers": [
+            {
+              "upTo": 100,
+              "unitPrice": 4
+            },
+            {
+              "upTo": 1000,
+              "unitPrice": 3
+            },
+            {
+              "upTo": null,
+              "unitPrice": 2
+            }
+          ]
+        }
+      },
+      {
+        "name": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "version": "v2",
+        "effectiveFrom": "2026-07-10",
+        "pricing": {
+          "type": "VOLUME",
+          "tiers": [
+            {
+              "upTo": 10,
+              "unitPrice": 15
+            },
+            {
+              "upTo": 50,
+              "unitPrice": 9
+            },
+            {
+              "upTo": null,
+              "unitPrice": 7
+            }
+          ]
+        }
+      },
+      {
+        "name": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "version": "v2",
+        "effectiveFrom": "2026-07-20",
+        "pricing": {
+          "type": "PER_UNIT",
+          "unitPrice": 3
+        }
+      }
+    ]
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-25",
+    "error": "Price effective date must be after 2026-08-16 (version v3)."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-25",
+    "error": "Price effective date must be after 2026-08-16 (version v3)."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-25",
+    "error": "Price effective date cannot be in the past."
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-07-28",
+    "customer": "stark_industries",
+    "period": "2026-07",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 303
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 400
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-07-28",
+    "customer": "ale_industries",
+    "period": "2026-07",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 3000
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 12
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-08-01",
+    "error": "Event op-dep-2: customer opto_labs is suspended. Event rejected."
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-08-01",
+    "notifications": [
+      {
+        "timestamp": "2026-07-03",
+        "message": "Price of storage_gb changed: version v2 effective from 2026-07-20."
+      },
+      {
+        "timestamp": "2026-07-10",
+        "message": "Price of seats changed: version v2 effective from 2026-07-10."
+      }
+    ]
+  },
+  {
+    "command": "viewAccount",
+    "username": "opto_labs",
+    "timestamp": "2026-08-01",
+    "balance": 785,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2026-09-01"
+    }
+  },
+  {
+    "command": "voidUsage",
+    "username": "andrei_i",
+    "timestamp": "2026-08-05",
+    "error": "Event al-dep-1 belongs to a finalized invoice and cannot be voided."
+  },
+  {
+    "command": "voidUsage",
+    "username": "andrei_i",
+    "timestamp": "2026-08-05",
+    "error": "Event op-gpu-3 belongs to a finalized invoice and cannot be voided."
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-08-05",
+    "balance": 235,
+    "discounts": [
+      {
+        "title": "Comeback 10",
+        "type": "PERCENTAGE",
+        "value": 10,
+        "scope": "INVOICE",
+        "validFrom": "2026-06-01",
+        "validTo": "2026-08-31"
+      }
+    ],
+    "subscription": {
+      "status": "PAST_DUE",
+      "nextBillingDate": "2026-08-08",
+      "unpaidInvoiceId": 7
+    }
+  },
+  {
+    "command": "viewWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-08-05",
+    "balance": 235,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 3,
+        "type": "TOP_UP",
+        "amount": 100,
+        "timestamp": "2026-06-02"
+      },
+      {
+        "id": 10,
+        "type": "TOP_UP",
+        "amount": 600,
+        "timestamp": "2026-07-01"
+      },
+      {
+        "id": 12,
+        "type": "CHARGE",
+        "amount": -615,
+        "timestamp": "2026-07-02",
+        "invoiceId": 0
+      },
+      {
+        "id": 26,
+        "type": "REFUND",
+        "amount": 150,
+        "timestamp": "2026-08-05",
+        "invoiceId": 0
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-08-05",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 2500,
+            "amount": 15
+          },
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 6,
+            "amount": 40
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 101,
+            "amount": 504
+          }
+        ],
+        "subtotal": 559,
+        "discount": 0,
+        "credits": 0,
+        "tax": 56,
+        "total": 615,
+        "refunded": 150
+      },
+      {
+        "id": 7,
+        "customer": "ale_industries",
+        "period": "2026-07",
+        "issuedAt": "2026-08-01",
+        "status": "OPEN",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 3000,
+            "amount": 15
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 11,
+            "amount": 110
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v2",
+            "quantity": 12,
+            "amount": 108
+          }
+        ],
+        "subtotal": 233,
+        "discount": 23,
+        "credits": 20,
+        "tax": 23,
+        "total": 213,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-08-10",
+    "customer": "wayne_corp",
+    "balance": 645,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 4,
+        "type": "TOP_UP",
+        "amount": 101,
+        "timestamp": "2026-06-02"
+      },
+      {
+        "id": 13,
+        "type": "TOP_UP",
+        "amount": 1153,
+        "timestamp": "2026-07-02"
+      },
+      {
+        "id": 14,
+        "type": "CHARGE",
+        "amount": -1254,
+        "timestamp": "2026-07-04",
+        "invoiceId": 6
+      },
+      {
+        "id": 24,
+        "type": "TOP_UP",
+        "amount": 1250,
+        "timestamp": "2026-08-03"
+      },
+      {
+        "id": 25,
+        "type": "CHARGE",
+        "amount": -605,
+        "timestamp": "2026-08-03",
+        "invoiceId": 12
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-08-25",
+    "balance": 459,
+    "credits": 35,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 1000,
+        "timestamp": "2026-06-02"
+      },
+      {
+        "id": 8,
+        "type": "CHARGE",
+        "amount": -591,
+        "timestamp": "2026-07-01",
+        "invoiceId": 2
+      },
+      {
+        "id": 16,
+        "type": "REFUND",
+        "amount": 59,
+        "timestamp": "2026-07-06",
+        "invoiceId": 2
+      },
+      {
+        "id": 19,
+        "type": "CHARGE",
+        "amount": -9,
+        "timestamp": "2026-08-01",
+        "invoiceId": 9
+      }
+    ]
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-09-02",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "payInvoice",
+    "username": "stark_industries",
+    "timestamp": "2026-09-02",
+    "error": "Only OPEN or UNCOLLECTIBLE invoices can be paid."
+  },
+  {
+    "command": "viewInvoices",
+    "username": "stark_industries",
+    "timestamp": "2026-09-02",
+    "invoices": [
+      {
+        "id": 5,
+        "customer": "stark_industries",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "REFUNDED",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1001,
+            "amount": 10
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 1001,
+            "amount": 4103
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 51,
+            "amount": 408
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 500,
+            "amount": 1000
+          }
+        ],
+        "subtotal": 5521,
+        "discount": 300,
+        "credits": 0,
+        "tax": 552,
+        "total": 5773,
+        "refunded": 5773
+      },
+      {
+        "id": 11,
+        "customer": "stark_industries",
+        "period": "2026-07",
+        "issuedAt": "2026-08-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 146,
+            "amount": 684
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v2",
+            "quantity": 157,
+            "amount": 571
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 400,
+            "amount": 800
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v2",
+            "quantity": 250,
+            "amount": 750
+          }
+        ],
+        "subtotal": 2805,
+        "discount": 126,
+        "credits": 100,
+        "tax": 281,
+        "total": 2860,
+        "refunded": 0
+      },
+      {
+        "id": 18,
+        "customer": "stark_industries",
+        "period": "2026-08",
+        "issuedAt": "2026-09-01",
+        "status": "REFUNDED",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v2",
+            "quantity": 2000,
+            "amount": 5100
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v3",
+            "quantity": 300,
+            "amount": 700
+          }
+        ],
+        "subtotal": 5800,
+        "discount": 0,
+        "credits": 0,
+        "tax": 580,
+        "total": 6380,
+        "refunded": 6380
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "umbrella_corp",
+    "timestamp": "2026-11-03",
+    "invoices": [
+      {
+        "id": 19,
+        "customer": "umbrella_corp",
+        "period": "2026-08",
+        "issuedAt": "2026-09-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      },
+      {
+        "id": 27,
+        "customer": "umbrella_corp",
+        "period": "2026-09",
+        "issuedAt": "2026-10-01",
+        "status": "UNCOLLECTIBLE",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v3",
+            "quantity": 400,
+            "amount": 800
+          }
+        ],
+        "subtotal": 800,
+        "discount": 0,
+        "credits": 0,
+        "tax": 80,
+        "total": 880,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-11-03",
+    "report": {
+      "totalTransactions": 38,
+      "transactionsByType": {
+        "TOP_UP": 13,
+        "CHARGE": 18,
+        "REFUND": 7
+      },
+      "amountByType": {
+        "TOP_UP": 19842.0,
+        "CHARGE": 23834.0,
+        "REFUND": 12914.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 45.67,
+        "CHARGE": 23.26,
+        "REFUND": 35.39
+      }
+    }
+  },
+  {
+    "command": "payInvoice",
+    "username": "umbrella_corp",
+    "timestamp": "2026-11-03",
+    "error": "Insufficient funds to pay invoice 27."
+  },
+  {
+    "command": "viewWallet",
+    "username": "nova_tech",
+    "timestamp": "2026-11-03",
+    "balance": 0,
+    "credits": 10,
+    "transactions": [
+      {
+        "id": 11,
+        "type": "TOP_UP",
+        "amount": 56,
+        "timestamp": "2026-07-01"
+      },
+      {
+        "id": 20,
+        "type": "CHARGE",
+        "amount": -54,
+        "timestamp": "2026-08-01",
+        "invoiceId": 10
+      },
+      {
+        "id": 36,
+        "type": "CHARGE",
+        "amount": -2,
+        "timestamp": "2026-10-01",
+        "invoiceId": 24
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "nova_tech",
+    "timestamp": "2026-11-03",
+    "invoices": [
+      {
+        "id": 3,
+        "customer": "nova_tech",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 2,
+            "amount": 4
+          }
+        ],
+        "subtotal": 4,
+        "discount": 4,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      },
+      {
+        "id": 10,
+        "customer": "nova_tech",
+        "period": "2026-07",
+        "issuedAt": "2026-08-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 1,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v2",
+            "quantity": 1,
+            "amount": 15
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 7,
+            "amount": 14
+          }
+        ],
+        "subtotal": 49,
+        "discount": 0,
+        "credits": 0,
+        "tax": 5,
+        "total": 54,
+        "refunded": 0
+      },
+      {
+        "id": 16,
+        "customer": "nova_tech",
+        "period": "2026-08",
+        "issuedAt": "2026-09-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      },
+      {
+        "id": 24,
+        "customer": "nova_tech",
+        "period": "2026-09",
+        "issuedAt": "2026-10-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v2",
+            "quantity": 5,
+            "amount": 15
+          }
+        ],
+        "subtotal": 15,
+        "discount": 0,
+        "credits": 15,
+        "tax": 2,
+        "total": 2,
+        "refunded": 0
+      },
+      {
+        "id": 32,
+        "customer": "nova_tech",
+        "period": "2026-10",
+        "issuedAt": "2026-11-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "nova_tech",
+    "timestamp": "2026-11-03",
+    "notifications": [
+      {
+        "timestamp": "2026-09-10",
+        "message": "Price of gpu_minutes changed: version v4 effective from 2026-10-15."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-11-03",
+    "notifications": [
+      {
+        "timestamp": "2026-07-20",
+        "message": "Price of gpu_minutes changed: version v3 effective from 2026-08-16."
+      },
+      {
+        "timestamp": "2026-09-10",
+        "message": "Price of gpu_minutes changed: version v4 effective from 2026-10-15."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "stark_industries",
+    "timestamp": "2026-11-03",
+    "notifications": [
+      {
+        "timestamp": "2026-06-20",
+        "message": "Price of gpu_minutes changed: version v2 effective from 2026-07-16."
+      },
+      {
+        "timestamp": "2026-07-20",
+        "message": "Price of gpu_minutes changed: version v3 effective from 2026-08-16."
+      }
+    ]
+  },
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-11-03",
+    "error": "Username lilith_labs already in use."
+  },
+  {
+    "command": "viewAccount",
+    "username": "zeta_labs",
+    "timestamp": "2026-11-03",
+    "balance": 0,
+    "discounts": [],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2026-12-01"
+    }
+  },
+  {
+    "command": "viewNotifications",
+    "username": "zeta_labs",
+    "timestamp": "2026-11-03",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "umbrella_corp",
+    "timestamp": "2026-11-06",
+    "notifications": [
+      {
+        "timestamp": "2026-11-05",
+        "message": "Price of deployments changed: version v2 effective from 2026-11-16."
+      }
+    ]
+  },
+  {
+    "command": "viewPricing",
+    "username": "alexia_o",
+    "timestamp": "2026-11-06",
+    "currency": "USD",
+    "prices": [
+      {
+        "name": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 1000,
+              "packagePrice": 5
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-11-16",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 2000,
+              "packagePrice": 8
+            }
+          },
+          {
+            "version": "v3",
+            "effectiveFrom": "2026-11-25",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 500,
+              "packagePrice": 3
+            }
+          }
+        ]
+      },
+      {
+        "name": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PACKAGE",
+              "packageSize": 5,
+              "packagePrice": 20
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-11-16",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 15
+            }
+          }
+        ]
+      },
+      {
+        "name": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 5
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 4
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 3
+                }
+              ]
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-07-16",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 100,
+                  "unitPrice": 4
+                },
+                {
+                  "upTo": 1000,
+                  "unitPrice": 3
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 2
+                }
+              ]
+            }
+          },
+          {
+            "version": "v3",
+            "effectiveFrom": "2026-08-16",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 200,
+                  "unitPrice": 3
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 1
+                }
+              ]
+            }
+          },
+          {
+            "version": "v4",
+            "effectiveFrom": "2026-10-15",
+            "pricing": {
+              "type": "GRADUATED",
+              "tiers": [
+                {
+                  "upTo": 50,
+                  "unitPrice": 10
+                },
+                {
+                  "upTo": 500,
+                  "unitPrice": 5
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 2
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "VOLUME",
+              "tiers": [
+                {
+                  "upTo": 10,
+                  "unitPrice": 12
+                },
+                {
+                  "upTo": 50,
+                  "unitPrice": 10
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 8
+                }
+              ]
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-07-10",
+            "pricing": {
+              "type": "VOLUME",
+              "tiers": [
+                {
+                  "upTo": 10,
+                  "unitPrice": 15
+                },
+                {
+                  "upTo": 50,
+                  "unitPrice": 9
+                },
+                {
+                  "upTo": null,
+                  "unitPrice": 7
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "versions": [
+          {
+            "version": "v1",
+            "effectiveFrom": "2026-01-01",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 2
+            }
+          },
+          {
+            "version": "v2",
+            "effectiveFrom": "2026-07-20",
+            "pricing": {
+              "type": "PER_UNIT",
+              "unitPrice": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-01",
+    "balance": 442,
+    "discounts": [
+      {
+        "title": "Summer 15",
+        "type": "PERCENTAGE",
+        "value": 15,
+        "scope": "INVOICE",
+        "validFrom": "2026-06-01",
+        "validTo": "2026-07-31"
+      },
+      {
+        "title": "Early bird",
+        "type": "FIXED",
+        "value": 200,
+        "scope": "INVOICE",
+        "validFrom": "2026-06-01",
+        "validTo": "2026-06-29"
+      },
+      {
+        "title": "July half",
+        "type": "PERCENTAGE",
+        "value": 50,
+        "scope": "INVOICE",
+        "validFrom": "2026-07-01",
+        "validTo": "2026-07-31"
+      },
+      {
+        "title": "Free August",
+        "type": "PERCENTAGE",
+        "value": 100,
+        "scope": "INVOICE",
+        "validFrom": "2026-08-01",
+        "validTo": "2026-08-31"
+      }
+    ],
+    "subscription": {
+      "status": "PAST_DUE",
+      "nextBillingDate": "2026-12-02",
+      "unpaidInvoiceId": 38
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "cyberdyne",
+    "timestamp": "2026-12-04",
+    "balance": 9,
+    "discounts": [
+      {
+        "title": "Flat 100",
+        "type": "FIXED",
+        "value": 100,
+        "scope": "INVOICE",
+        "validFrom": "2026-07-01",
+        "validTo": "2026-07-31"
+      },
+      {
+        "title": "Flat 150",
+        "type": "FIXED",
+        "value": 150,
+        "scope": "INVOICE",
+        "validFrom": "2026-07-15",
+        "validTo": "2026-08-15"
+      }
+    ],
+    "subscription": {
+      "status": "PAST_DUE",
+      "nextBillingDate": "2026-12-08",
+      "unpaidInvoiceId": 37
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-09",
+    "balance": 0,
+    "discounts": [
+      {
+        "title": "Summer 15",
+        "type": "PERCENTAGE",
+        "value": 15,
+        "scope": "INVOICE",
+        "validFrom": "2026-06-01",
+        "validTo": "2026-07-31"
+      },
+      {
+        "title": "Early bird",
+        "type": "FIXED",
+        "value": 200,
+        "scope": "INVOICE",
+        "validFrom": "2026-06-01",
+        "validTo": "2026-06-29"
+      },
+      {
+        "title": "July half",
+        "type": "PERCENTAGE",
+        "value": 50,
+        "scope": "INVOICE",
+        "validFrom": "2026-07-01",
+        "validTo": "2026-07-31"
+      },
+      {
+        "title": "Free August",
+        "type": "PERCENTAGE",
+        "value": 100,
+        "scope": "INVOICE",
+        "validFrom": "2026-08-01",
+        "validTo": "2026-08-31"
+      }
+    ],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2027-01-01"
+    }
+  },
+  {
+    "command": "viewAccount",
+    "username": "alexia_o",
+    "timestamp": "2026-12-09",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER; user role ADMIN."
+  },
+  {
+    "command": "viewInvoices",
+    "username": "opto_labs",
+    "timestamp": "2026-12-09",
+    "invoices": [
+      {
+        "id": 4,
+        "customer": "opto_labs",
+        "period": "2026-06",
+        "issuedAt": "2026-07-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 5
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 4100
+          }
+        ],
+        "subtotal": 4105,
+        "discount": 0,
+        "credits": 0,
+        "tax": 411,
+        "total": 4516,
+        "refunded": 452
+      },
+      {
+        "id": 17,
+        "customer": "opto_labs",
+        "period": "2026-08",
+        "issuedAt": "2026-09-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 1,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v3",
+            "quantity": 250,
+            "amount": 650
+          }
+        ],
+        "subtotal": 670,
+        "discount": 0,
+        "credits": 10,
+        "tax": 67,
+        "total": 727,
+        "refunded": 0
+      },
+      {
+        "id": 25,
+        "customer": "opto_labs",
+        "period": "2026-09",
+        "issuedAt": "2026-10-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      },
+      {
+        "id": 33,
+        "customer": "opto_labs",
+        "period": "2026-10",
+        "issuedAt": "2026-11-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      },
+      {
+        "id": 40,
+        "customer": "opto_labs",
+        "period": "2026-11",
+        "issuedAt": "2026-12-01",
+        "status": "UNCOLLECTIBLE",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 3,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v2",
+            "quantity": 1,
+            "amount": 15
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v4",
+            "quantity": 100,
+            "amount": 750
+          }
+        ],
+        "subtotal": 785,
+        "discount": 0,
+        "credits": 0,
+        "tax": 79,
+        "total": 864,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewAccount",
+    "username": "opto_labs",
+    "timestamp": "2026-12-09",
+    "balance": 510,
+    "discounts": [],
+    "subscription": {
+      "status": "SUSPENDED",
+      "nextBillingDate": null,
+      "unpaidInvoiceId": 40
+    }
+  },
+  {
+    "command": "viewInvoices",
+    "username": "zeta_labs",
+    "timestamp": "2026-12-09",
+    "invoices": [
+      {
+        "id": 43,
+        "customer": "zeta_labs",
+        "period": "2026-11",
+        "issuedAt": "2026-12-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewBalance",
+    "username": "gabriel_v",
+    "timestamp": "2026-12-09",
+    "balance": 11642,
+    "transactions": [
+      {
+        "id": 7,
+        "type": "CHARGE",
+        "customer": "cyberdyne",
+        "amount": 182,
+        "timestamp": "2026-07-01",
+        "invoiceId": 1
+      },
+      {
+        "id": 8,
+        "type": "CHARGE",
+        "customer": "lilith_labs",
+        "amount": 591,
+        "timestamp": "2026-07-01",
+        "invoiceId": 2
+      },
+      {
+        "id": 9,
+        "type": "CHARGE",
+        "customer": "stark_industries",
+        "amount": 5773,
+        "timestamp": "2026-07-01",
+        "invoiceId": 5
+      },
+      {
+        "id": 12,
+        "type": "CHARGE",
+        "customer": "ale_industries",
+        "amount": 615,
+        "timestamp": "2026-07-02",
+        "invoiceId": 0
+      },
+      {
+        "id": 14,
+        "type": "CHARGE",
+        "customer": "wayne_corp",
+        "amount": 1254,
+        "timestamp": "2026-07-04",
+        "invoiceId": 6
+      },
+      {
+        "id": 15,
+        "type": "REFUND",
+        "customer": "stark_industries",
+        "amount": -1500,
+        "timestamp": "2026-07-06",
+        "invoiceId": 5
+      },
+      {
+        "id": 16,
+        "type": "REFUND",
+        "customer": "lilith_labs",
+        "amount": -59,
+        "timestamp": "2026-07-06",
+        "invoiceId": 2
+      },
+      {
+        "id": 17,
+        "type": "REFUND",
+        "customer": "stark_industries",
+        "amount": -4273,
+        "timestamp": "2026-07-07",
+        "invoiceId": 5
+      },
+      {
+        "id": 18,
+        "type": "CHARGE",
+        "customer": "cyberdyne",
+        "amount": 9,
+        "timestamp": "2026-08-01",
+        "invoiceId": 8
+      },
+      {
+        "id": 19,
+        "type": "CHARGE",
+        "customer": "lilith_labs",
+        "amount": 9,
+        "timestamp": "2026-08-01",
+        "invoiceId": 9
+      },
+      {
+        "id": 20,
+        "type": "CHARGE",
+        "customer": "nova_tech",
+        "amount": 54,
+        "timestamp": "2026-08-01",
+        "invoiceId": 10
+      },
+      {
+        "id": 21,
+        "type": "CHARGE",
+        "customer": "stark_industries",
+        "amount": 2860,
+        "timestamp": "2026-08-01",
+        "invoiceId": 11
+      },
+      {
+        "id": 23,
+        "type": "CHARGE",
+        "customer": "opto_labs",
+        "amount": 4516,
+        "timestamp": "2026-08-01",
+        "invoiceId": 4
+      },
+      {
+        "id": 25,
+        "type": "CHARGE",
+        "customer": "wayne_corp",
+        "amount": 605,
+        "timestamp": "2026-08-03",
+        "invoiceId": 12
+      },
+      {
+        "id": 26,
+        "type": "REFUND",
+        "customer": "ale_industries",
+        "amount": -150,
+        "timestamp": "2026-08-05",
+        "invoiceId": 0
+      },
+      {
+        "id": 27,
+        "type": "REFUND",
+        "customer": "opto_labs",
+        "amount": -452,
+        "timestamp": "2026-08-05",
+        "invoiceId": 4
+      },
+      {
+        "id": 28,
+        "type": "CHARGE",
+        "customer": "ale_industries",
+        "amount": 213,
+        "timestamp": "2026-08-08",
+        "invoiceId": 7
+      },
+      {
+        "id": 29,
+        "type": "REFUND",
+        "customer": "ale_industries",
+        "amount": -100,
+        "timestamp": "2026-08-10",
+        "invoiceId": 7
+      },
+      {
+        "id": 30,
+        "type": "CHARGE",
+        "customer": "ale_industries",
+        "amount": 5,
+        "timestamp": "2026-09-01",
+        "invoiceId": 13
+      },
+      {
+        "id": 31,
+        "type": "CHARGE",
+        "customer": "lilith_labs",
+        "amount": 17,
+        "timestamp": "2026-09-01",
+        "invoiceId": 15
+      },
+      {
+        "id": 32,
+        "type": "CHARGE",
+        "customer": "opto_labs",
+        "amount": 727,
+        "timestamp": "2026-09-01",
+        "invoiceId": 17
+      },
+      {
+        "id": 33,
+        "type": "CHARGE",
+        "customer": "stark_industries",
+        "amount": 6380,
+        "timestamp": "2026-09-01",
+        "invoiceId": 18
+      },
+      {
+        "id": 34,
+        "type": "REFUND",
+        "customer": "stark_industries",
+        "amount": -6380,
+        "timestamp": "2026-09-02",
+        "invoiceId": 18
+      },
+      {
+        "id": 36,
+        "type": "CHARGE",
+        "customer": "nova_tech",
+        "amount": 2,
+        "timestamp": "2026-10-01",
+        "invoiceId": 24
+      },
+      {
+        "id": 37,
+        "type": "CHARGE",
+        "customer": "wayne_corp",
+        "amount": 22,
+        "timestamp": "2026-10-01",
+        "invoiceId": 28
+      },
+      {
+        "id": 38,
+        "type": "CHARGE",
+        "customer": "stark_industries",
+        "amount": 50,
+        "timestamp": "2026-12-01",
+        "invoiceId": 41
+      },
+      {
+        "id": 40,
+        "type": "CHARGE",
+        "customer": "lilith_labs",
+        "amount": 570,
+        "timestamp": "2026-12-01",
+        "invoiceId": 38
+      },
+      {
+        "id": 42,
+        "type": "CHARGE",
+        "customer": "cyberdyne",
+        "amount": 102,
+        "timestamp": "2026-12-04",
+        "invoiceId": 37
+      }
+    ]
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-12-09",
+    "report": {
+      "totalTransactions": 43,
+      "transactionsByType": {
+        "TOP_UP": 15,
+        "CHARGE": 21,
+        "REFUND": 7
+      },
+      "amountByType": {
+        "TOP_UP": 20063.0,
+        "CHARGE": 24556.0,
+        "REFUND": 12914.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 42.5,
+        "CHARGE": 25.0,
+        "REFUND": 35.39
+      }
+    }
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "sarra_m",
+    "timestamp": "2026-12-09",
+    "report": {
+      "totalTransactions": 43,
+      "transactionsByType": {
+        "TOP_UP": 15,
+        "CHARGE": 21,
+        "REFUND": 7
+      },
+      "amountByType": {
+        "TOP_UP": 20063.0,
+        "CHARGE": 24556.0,
+        "REFUND": 12914.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 42.5,
+        "CHARGE": 25.0,
+        "REFUND": 35.39
+      }
+    }
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-12-09",
+    "report": {
+      "totalTransactions": 43,
+      "transactionsByType": {
+        "TOP_UP": 15,
+        "CHARGE": 21,
+        "REFUND": 7
+      },
+      "exposureByType": {
+        "TOP_UP": 60.95,
+        "CHARGE": 46.43,
+        "REFUND": 53.97
+      }
+    }
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-09",
+    "error": "The user does not have permission to execute this command: required role MANAGER; user role CUSTOMER."
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "ghost_user",
+    "timestamp": "2026-12-09",
+    "error": "The user ghost_user does not exist."
+  }
+]

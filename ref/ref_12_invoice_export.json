@@ -1,0 +1,131 @@
+[
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05",
+    "error": "Invoice 0 not found."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "error": "Invoice 0 not found."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "error": "Invoice 0 not found."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-02",
+    "error": "Unsupported export format XML."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-02",
+    "error": "Invoice 5 not found."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-04-02",
+    "error": "Unsupported export format PDF."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "sarra_m",
+    "timestamp": "2026-04-03",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER, SUPPORT, ADMIN; user role MANAGER."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "ghost_user",
+    "timestamp": "2026-04-03",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "exportInvoice",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03",
+    "error": "Invoice 1 not found."
+  },
+  {
+    "command": "viewInvoices",
+    "username": "giulio_p",
+    "timestamp": "2026-04-03",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "OPEN",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 2500,
+            "amount": 15
+          }
+        ],
+        "subtotal": 15,
+        "discount": 0,
+        "credits": 0,
+        "tax": 2,
+        "total": 17,
+        "refunded": 0
+      },
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 2000,
+            "amount": 10
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 65,
+            "amount": 130
+          }
+        ],
+        "subtotal": 140,
+        "discount": 0,
+        "credits": 0,
+        "tax": 14,
+        "total": 154,
+        "refunded": 0
+      },
+      {
+        "id": 2,
+        "customer": "opto_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      }
+    ]
+  }
+]

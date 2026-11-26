@@ -1,0 +1,44 @@
+{
+  "id": 2,
+  "customer": "lilith_labs",
+  "period": "2026-06",
+  "issuedAt": "2026-07-01",
+  "status": "PAID",
+  "currency": "USD",
+  "lines": [
+    {
+      "type": "USAGE",
+      "meter": "deployments",
+      "priceVersion": "v1",
+      "quantity": 5,
+      "amount": 20
+    },
+    {
+      "type": "USAGE",
+      "meter": "gpu_minutes",
+      "priceVersion": "v1",
+      "quantity": 100,
+      "amount": 500
+    },
+    {
+      "type": "USAGE",
+      "meter": "seats",
+      "priceVersion": "v1",
+      "quantity": 10,
+      "amount": 120
+    },
+    {
+      "type": "USAGE",
+      "meter": "storage_gb",
+      "priceVersion": "v1",
+      "quantity": 15,
+      "amount": 30
+    }
+  ],
+  "subtotal": 670,
+  "discount": 101,
+  "credits": 45,
+  "tax": 67,
+  "total": 591,
+  "refunded": 0
+}

@@ -1,0 +1,239 @@
+[
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-01",
+    "report": {
+      "totalTransactions": 0,
+      "transactionsByType": {
+        "TOP_UP": 0,
+        "CHARGE": 0,
+        "REFUND": 0
+      },
+      "amountByType": {
+        "TOP_UP": 0.0,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 0.0,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-03",
+    "report": {
+      "totalTransactions": 3,
+      "transactionsByType": {
+        "TOP_UP": 3,
+        "CHARGE": 0,
+        "REFUND": 0
+      },
+      "amountByType": {
+        "TOP_UP": 6100.0,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 29.17,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-03",
+    "error": "Amount must be positive and non-zero."
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-03",
+    "report": {
+      "totalTransactions": 3,
+      "transactionsByType": {
+        "TOP_UP": 3,
+        "CHARGE": 0,
+        "REFUND": 0
+      },
+      "amountByType": {
+        "TOP_UP": 6100.0,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 29.17,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03",
+    "report": {
+      "totalTransactions": 4,
+      "transactionsByType": {
+        "TOP_UP": 3,
+        "CHARGE": 1,
+        "REFUND": 0
+      },
+      "amountByType": {
+        "TOP_UP": 6100.0,
+        "CHARGE": 110.0,
+        "REFUND": 0.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 29.17,
+        "CHARGE": 9.38,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-03",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03",
+    "report": {
+      "totalTransactions": 4,
+      "transactionsByType": {
+        "TOP_UP": 3,
+        "CHARGE": 1,
+        "REFUND": 0
+      },
+      "amountByType": {
+        "TOP_UP": 6100.0,
+        "CHARGE": 110.0,
+        "REFUND": 0.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 29.17,
+        "CHARGE": 9.38,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-09",
+    "report": {
+      "totalTransactions": 6,
+      "transactionsByType": {
+        "TOP_UP": 4,
+        "CHARGE": 2,
+        "REFUND": 0
+      },
+      "amountByType": {
+        "TOP_UP": 11101.0,
+        "CHARGE": 1210.0,
+        "REFUND": 0.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 46.88,
+        "CHARGE": 48.44,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-10",
+    "report": {
+      "totalTransactions": 8,
+      "transactionsByType": {
+        "TOP_UP": 4,
+        "CHARGE": 2,
+        "REFUND": 2
+      },
+      "amountByType": {
+        "TOP_UP": 11101.0,
+        "CHARGE": 1210.0,
+        "REFUND": 2.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 46.88,
+        "CHARGE": 48.44,
+        "REFUND": 7.95
+      }
+    }
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-12",
+    "report": {
+      "totalTransactions": 11,
+      "transactionsByType": {
+        "TOP_UP": 4,
+        "CHARGE": 2,
+        "REFUND": 5
+      },
+      "amountByType": {
+        "TOP_UP": 11101.0,
+        "CHARGE": 1210.0,
+        "REFUND": 211.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 46.88,
+        "CHARGE": 48.44,
+        "REFUND": 13.18
+      }
+    }
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "alexia_o",
+    "timestamp": "2026-04-12",
+    "error": "The user does not have permission to execute this command: required role MANAGER; user role ADMIN."
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "ghost_user",
+    "timestamp": "2026-04-12",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "sarra_m",
+    "timestamp": "2026-04-12",
+    "report": {
+      "totalTransactions": 11,
+      "transactionsByType": {
+        "TOP_UP": 4,
+        "CHARGE": 2,
+        "REFUND": 5
+      },
+      "amountByType": {
+        "TOP_UP": 11101.0,
+        "CHARGE": 1210.0,
+        "REFUND": 211.0
+      },
+      "customerImpactByType": {
+        "TOP_UP": 46.88,
+        "CHARGE": 48.44,
+        "REFUND": 13.18
+      }
+    }
+  }
+]

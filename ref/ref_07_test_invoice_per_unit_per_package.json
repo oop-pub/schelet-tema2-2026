@@ -1,0 +1,188 @@
+[
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-03-31",
+    "customer": "lilith_labs",
+    "period": "2026-03",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 4000
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 5
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [],
+        "subtotal": 0,
+        "discount": 0,
+        "credits": 0,
+        "tax": 0,
+        "total": 0,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-04-10",
+    "customer": "lilith_labs",
+    "period": "2026-04",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 1001
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 6
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 0
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ghost_user",
+    "timestamp": "2026-04-11",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "viewInvoices",
+    "username": "sarra_m",
+    "timestamp": "2026-05-10",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER, SUPPORT, ADMIN; user role MANAGER."
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-10",
+    "invoices": [
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 4000,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 5,
+            "amount": 20
+          }
+        ],
+        "subtotal": 40,
+        "discount": 0,
+        "credits": 0,
+        "tax": 4,
+        "total": 44,
+        "refunded": 0
+      },
+      {
+        "id": 3,
+        "customer": "lilith_labs",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1001,
+            "amount": 10
+          },
+          {
+            "type": "USAGE",
+            "meter": "deployments",
+            "priceVersion": "v1",
+            "quantity": 6,
+            "amount": 40
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 30,
+            "amount": 60
+          }
+        ],
+        "subtotal": 110,
+        "discount": 0,
+        "credits": 0,
+        "tax": 11,
+        "total": 121,
+        "refunded": 0
+      }
+    ]
+  }
+]

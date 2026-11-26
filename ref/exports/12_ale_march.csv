@@ -1,0 +1,6 @@
+invoiceId,customer,period,lineType,description,quantity,amount
+0,ale_industries,2026-03,USAGE,api_requests v1,2500,15
+0,ale_industries,2026-03,DISCOUNT,Discount applied,,0
+0,ale_industries,2026-03,CREDIT,Credits applied,,0
+0,ale_industries,2026-03,TAX,Tax,,2
+0,ale_industries,2026-03,TOTAL,Total (USD),,17

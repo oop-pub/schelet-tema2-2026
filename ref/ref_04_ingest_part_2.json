@@ -1,0 +1,86 @@
+[
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-03-12",
+    "customer": "lilith_labs",
+    "period": "2026-03",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 11
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 120
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-03",
+    "customer": "lilith_labs",
+    "period": "2026-04",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 7
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER, ADMIN; user role MANAGER."
+  }
+]

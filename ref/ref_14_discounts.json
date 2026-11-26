@@ -1,0 +1,165 @@
+[
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "error": "Customer ghost_customer not found."
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "error": "validFrom cannot be after validTo."
+  },
+  {
+    "command": "applyDiscount",
+    "username": "alexia_o",
+    "timestamp": "2026-03-04",
+    "error": "The user does not have permission to execute this command: required role SUPPORT; user role ADMIN."
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-04-02",
+    "error": "Cannot apply discount: customer ale_industries subscription is PAST_DUE."
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-04-02",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "OPEN",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 5
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 10,
+            "amount": 20
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v2",
+            "quantity": 20,
+            "amount": 60
+          }
+        ],
+        "subtotal": 85,
+        "discount": 20,
+        "credits": 0,
+        "tax": 9,
+        "total": 74,
+        "refunded": 0
+      }
+    ]
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "error": "Cannot apply discount: customer ale_industries subscription is SUSPENDED."
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-02",
+    "balance": 69,
+    "discounts": [
+      {
+        "title": "Spring sale",
+        "type": "PERCENTAGE",
+        "value": 15,
+        "scope": "INVOICE",
+        "validFrom": "2026-03-01",
+        "validTo": "2026-04-30"
+      },
+      {
+        "title": "April mega deal",
+        "type": "FIXED",
+        "value": 500,
+        "scope": "INVOICE",
+        "validFrom": "2026-04-01",
+        "validTo": "2026-04-30"
+      },
+      {
+        "title": "April match",
+        "type": "FIXED",
+        "value": 40,
+        "scope": "INVOICE",
+        "validFrom": "2026-04-01",
+        "validTo": "2026-04-30"
+      }
+    ],
+    "subscription": {
+      "status": "ACTIVE",
+      "nextBillingDate": "2026-06-01"
+    }
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-02",
+    "invoices": [
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 15,
+            "amount": 30
+          }
+        ],
+        "subtotal": 30,
+        "discount": 5,
+        "credits": 0,
+        "tax": 3,
+        "total": 28,
+        "refunded": 0
+      },
+      {
+        "id": 2,
+        "customer": "lilith_labs",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v2",
+            "quantity": 10,
+            "amount": 30
+          }
+        ],
+        "subtotal": 30,
+        "discount": 30,
+        "credits": 0,
+        "tax": 3,
+        "total": 3,
+        "refunded": 0
+      }
+    ]
+  }
+]

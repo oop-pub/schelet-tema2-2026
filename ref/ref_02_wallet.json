@@ -1,0 +1,137 @@
+[
+  {
+    "command": "viewWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-03-02",
+    "balance": 0,
+    "credits": 0,
+    "transactions": []
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-04",
+    "balance": 650,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 500,
+        "timestamp": "2026-03-03"
+      },
+      {
+        "id": 2,
+        "type": "TOP_UP",
+        "amount": 150,
+        "timestamp": "2026-03-04"
+      }
+    ]
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ghost_user",
+    "timestamp": "2026-03-05",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-03-05",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER, SUPPORT; user role ADMIN."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "error": "Customer i_do_not_exist not found."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "error": "Amount must be positive and non-zero."
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05",
+    "error": "Invalid payment method PAYPAL."
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-07",
+    "balance": 650,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 500,
+        "timestamp": "2026-03-03"
+      },
+      {
+        "id": 2,
+        "type": "TOP_UP",
+        "amount": 150,
+        "timestamp": "2026-03-04"
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-03-07",
+    "balance": 500,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 1,
+        "type": "TOP_UP",
+        "amount": 200,
+        "timestamp": "2026-03-03"
+      },
+      {
+        "id": 3,
+        "type": "TOP_UP",
+        "amount": 300,
+        "timestamp": "2026-03-06"
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-03-08",
+    "customer": "lilith_labs",
+    "balance": 650,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 500,
+        "timestamp": "2026-03-03"
+      },
+      {
+        "id": 2,
+        "type": "TOP_UP",
+        "amount": 150,
+        "timestamp": "2026-03-04"
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-03-08",
+    "error": "Customer i_do_not_exist not found."
+  },
+  {
+    "command": "viewWallet",
+    "username": "giulio_p",
+    "timestamp": "2026-03-08",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER, ADMIN; user role SUPPORT."
+  }
+]

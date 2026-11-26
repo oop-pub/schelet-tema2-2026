@@ -1,0 +1,139 @@
+[
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "error": "Customer lilith_labs is already subscribed to meter gpu_minutes."
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "error": "Unknown meter quantum_bits."
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "giulio_p",
+    "timestamp": "2026-03-03",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER; user role SUPPORT."
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "ale_industries",
+    "timestamp": "2026-03-03",
+    "error": "Customer ale_industries is not subscribed to meter api_requests."
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "ale_industries",
+    "timestamp": "2026-03-03",
+    "error": "Unknown meter quantum_bits."
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ghost_user",
+    "timestamp": "2026-03-03",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-06",
+    "error": "Price effective date cannot be in the past."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-06",
+    "error": "Price effective date must be after 2026-03-16 (version v2)."
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-06",
+    "error": "Unsupported currency EUR."
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-07",
+    "notifications": [
+      {
+        "timestamp": "2026-03-05",
+        "message": "Price of gpu_minutes changed: version v2 effective from 2026-03-16."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-07",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-10",
+    "notifications": [
+      {
+        "timestamp": "2026-03-05",
+        "message": "Price of gpu_minutes changed: version v2 effective from 2026-03-16."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-10",
+    "notifications": [
+      {
+        "timestamp": "2026-03-09",
+        "message": "Price of gpu_minutes changed: version v3 effective from 2026-04-01."
+      },
+      {
+        "timestamp": "2026-03-09",
+        "message": "Price of api_requests changed: version v2 effective from 2026-03-20."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "giulio_p",
+    "timestamp": "2026-03-10",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "sarra_m",
+    "timestamp": "2026-03-10",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "alexia_o",
+    "timestamp": "2026-03-10",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-13",
+    "notifications": [
+      {
+        "timestamp": "2026-03-12",
+        "message": "Price of gpu_minutes changed: version v4 effective from 2026-05-01."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-13",
+    "notifications": [
+      {
+        "timestamp": "2026-03-12",
+        "message": "Price of gpu_minutes changed: version v4 effective from 2026-05-01."
+      }
+    ]
+  }
+]

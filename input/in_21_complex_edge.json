@@ -1,0 +1,2551 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "signUp",
+    "username": "opto_labs",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "signUp",
+    "username": "stark_industries",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "signUp",
+    "username": "wayne_corp",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "signUp",
+    "username": "giulio_p",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "viewBalance",
+    "username": "sarra_m",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "alexia_o",
+    "timestamp": "2026-06-01"
+  },
+  {
+    "command": "viewWallet",
+    "username": "opto_labs",
+    "timestamp": "2026-06-01",
+    "customer": null
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-01",
+    "invoiceId": 0,
+    "format": "CSV",
+    "fileName": "out_21_err_too_early.csv"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "giulio_p",
+    "timestamp": "2026-06-02",
+    "customer": "ghost_corp",
+    "amount": -5,
+    "paymentMethod": "PAYPAL"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": 0,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": -50,
+    "paymentMethod": "PAYPAL"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": 100,
+    "paymentMethod": "PAYPAL"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": 1000,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "stark_industries",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": 5001,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "stark_industries",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": 5000,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": 100,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "cvinti_r",
+    "timestamp": "2026-06-02",
+    "customer": "wayne_corp",
+    "amount": 101,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "opto_labs",
+    "timestamp": "2026-06-02",
+    "customer": null,
+    "amount": 1001,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-06-02",
+    "customer": "ghost_corp"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "meter": "bandwidth"
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "meter": "deployments"
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-03",
+    "meter": "bandwidth"
+  },
+  {
+    "command": "grantCredits",
+    "username": "andrei_i",
+    "timestamp": "2026-06-03",
+    "customer": "lilith_labs",
+    "amount": 300,
+    "reason": "Welcome"
+  },
+  {
+    "command": "grantCredits",
+    "username": "andrei_i",
+    "timestamp": "2026-06-03",
+    "customer": "lilith_labs",
+    "amount": 200,
+    "reason": "Promo",
+    "expiresAt": "2026-07-01"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-06-03",
+    "customer": "lilith_labs",
+    "title": "Summer 15",
+    "type": "PERCENTAGE",
+    "value": 15,
+    "scope": "INVOICE",
+    "validFrom": "2026-06-01",
+    "validTo": "2026-07-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-06-03",
+    "customer": "lilith_labs",
+    "title": "Early bird",
+    "type": "FIXED",
+    "value": 200,
+    "scope": "INVOICE",
+    "validFrom": "2026-06-01",
+    "validTo": "2026-06-29"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-06-03",
+    "customer": "lilith_labs",
+    "title": "July half",
+    "type": "PERCENTAGE",
+    "value": 50,
+    "scope": "INVOICE",
+    "validFrom": "2026-07-01",
+    "validTo": "2026-07-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-06-03",
+    "customer": "ghost_corp",
+    "title": "Bad",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-06-10",
+    "validTo": "2026-06-05"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-06-03",
+    "customer": "lilith_labs",
+    "title": "Bad",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-06-10",
+    "validTo": "2026-06-05"
+  },
+  {
+    "command": "grantCredits",
+    "username": "andrei_i",
+    "timestamp": "2026-06-04",
+    "customer": "lilith_labs",
+    "amount": 150,
+    "reason": "Bonus",
+    "expiresAt": "2026-07-02"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-06-04",
+    "customer": "lilith_labs",
+    "amount": 100,
+    "reason": "Flash",
+    "expiresAt": "2026-06-20"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-06-04",
+    "customer": "ghost_corp",
+    "amount": 100,
+    "reason": "X",
+    "expiresAt": "2026-06-01"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-06-04",
+    "customer": "lilith_labs",
+    "amount": 100,
+    "reason": "X",
+    "expiresAt": "2026-06-04"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-06-04",
+    "customer": "lilith_labs",
+    "amount": 100,
+    "reason": "X",
+    "expiresAt": "2026-06-03"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "stark_industries",
+    "timestamp": "2026-06-05",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "opto_labs",
+    "timestamp": "2026-06-05",
+    "meter": "storage_gb"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "opto_labs",
+    "timestamp": "2026-06-05",
+    "meter": "seats"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cosmin_a",
+    "timestamp": "2026-06-05",
+    "customer": "stark_industries",
+    "title": "GPU boost",
+    "type": "FIXED",
+    "value": 300,
+    "scope": "METER",
+    "meter": "gpu_minutes",
+    "validFrom": "2026-06-01",
+    "validTo": "2026-06-30"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-07",
+    "events": [
+      {
+        "id": "st-stor-1",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 300,
+        "timestamp": "2026-06-03T09:00:00"
+      },
+      {
+        "id": "li-gpu-1",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 70,
+        "timestamp": "2026-06-04T12:00:00"
+      },
+      {
+        "id": "li-dep-1",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 10,
+        "timestamp": "2026-06-05T08:00:00"
+      },
+      {
+        "id": "li-dep-2",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 0,
+        "timestamp": "2026-06-05T08:10:00"
+      },
+      {
+        "id": "li-dep-3",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 300,
+        "timestamp": "2026-06-05T08:20:00"
+      },
+      {
+        "id": "st-seat-1",
+        "customer": "stark_industries",
+        "meter": "seats",
+        "value": 60,
+        "timestamp": "2026-06-05T10:00:00"
+      },
+      {
+        "id": "op-gpu-1",
+        "customer": "opto_labs",
+        "meter": "gpu_minutes",
+        "value": 600,
+        "timestamp": "2026-06-05T11:00:00"
+      },
+      {
+        "id": "al-gpu-1",
+        "customer": "ale_industries",
+        "meter": "gpu_minutes",
+        "value": 60,
+        "timestamp": "2026-06-06T14:00:00"
+      },
+      {
+        "id": "op-api-1",
+        "customer": "opto_labs",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-06-07T07:00:00"
+      },
+      {
+        "id": "al-api-1",
+        "customer": "ale_industries",
+        "meter": "api_requests",
+        "value": 1500,
+        "timestamp": "2026-06-07T09:00:00"
+      },
+      {
+        "id": "wy-stor-1",
+        "customer": "wayne_corp",
+        "meter": "storage_gb",
+        "value": 300,
+        "timestamp": "2026-06-07T09:00:00"
+      },
+      {
+        "id": "wy-dep-1",
+        "customer": "wayne_corp",
+        "meter": "deployments",
+        "value": 5,
+        "timestamp": "2026-06-07T09:10:00"
+      },
+      {
+        "id": "wy-dep-2",
+        "customer": "wayne_corp",
+        "meter": "deployments",
+        "value": 5,
+        "timestamp": "2026-06-07T09:20:00"
+      },
+      {
+        "id": "wy-dep-3",
+        "customer": "wayne_corp",
+        "meter": "deployments",
+        "value": 5,
+        "timestamp": "2026-06-07T09:30:00"
+      },
+      {
+        "id": "al-dep-1",
+        "customer": "ale_industries",
+        "meter": "deployments",
+        "value": 40,
+        "timestamp": "2026-06-07T10:00:00"
+      },
+      {
+        "id": "al-dep-2",
+        "customer": "ale_industries",
+        "meter": "deployments",
+        "value": 41,
+        "timestamp": "2026-06-07T10:01:00"
+      },
+      {
+        "id": "al-dep-3",
+        "customer": "ale_industries",
+        "meter": "deployments",
+        "value": 42,
+        "timestamp": "2026-06-07T10:02:00"
+      },
+      {
+        "id": "al-dep-4",
+        "customer": "ale_industries",
+        "meter": "deployments",
+        "value": 43,
+        "timestamp": "2026-06-07T10:03:00"
+      },
+      {
+        "id": "st-stor-2",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 700,
+        "timestamp": "2026-06-07T18:00:00"
+      }
+    ]
+  },
+  {
+    "command": "signUp",
+    "username": "cyberdyne",
+    "timestamp": "2026-06-10"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-10",
+    "events": [
+      {
+        "id": "cy-01",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 300,
+        "timestamp": "2026-06-10T09:00:10"
+      },
+      {
+        "id": "cy-02",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 300,
+        "timestamp": "2026-06-10T09:00:30"
+      },
+      {
+        "id": "st-api-1",
+        "customer": "stark_industries",
+        "meter": "api_requests",
+        "value": 1001,
+        "timestamp": "2026-06-10T09:00:40"
+      },
+      {
+        "id": "cy-03",
+        "customer": "ghost_corp",
+        "meter": "api_requests",
+        "value": 300,
+        "timestamp": "2026-06-10T09:00:50"
+      },
+      {
+        "id": "cy-04",
+        "customer": "cyberdyne",
+        "meter": "deployments",
+        "value": 0,
+        "timestamp": "2026-06-10T09:00:55"
+      },
+      {
+        "id": "cy-05",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 100,
+        "timestamp": "2026-06-10T09:01:05"
+      },
+      {
+        "id": "cy-06",
+        "customer": "cyberdyne",
+        "meter": "storage_gb",
+        "value": 60,
+        "timestamp": "2026-06-10T09:01:10"
+      },
+      {
+        "id": "cy-07",
+        "customer": "cyberdyne",
+        "meter": "storage_gb",
+        "value": 30,
+        "timestamp": "2026-06-10T09:01:20"
+      },
+      {
+        "id": "gh-01",
+        "customer": "ghost_corp",
+        "meter": "api_requests",
+        "value": 10,
+        "timestamp": "2026-06-10T09:01:35"
+      },
+      {
+        "id": "cy-09",
+        "customer": "cyberdyne",
+        "meter": "storage_gb",
+        "value": 10,
+        "timestamp": "2026-06-10T09:01:40"
+      },
+      {
+        "id": "cy-11",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 50,
+        "timestamp": "2026-06-10T09:59:58"
+      },
+      {
+        "id": "cy-12",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 50,
+        "timestamp": "2026-06-10T09:59:59"
+      },
+      {
+        "id": "cy-13",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 50,
+        "timestamp": "2026-06-10T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-10",
+    "events": [
+      {
+        "id": "cy-14",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 50,
+        "timestamp": "2026-06-10T10:00:10"
+      }
+    ]
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-10",
+    "events": [
+      {
+        "id": "cy-15b",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 0,
+        "timestamp": "2026-06-10T10:00:25"
+      }
+    ]
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-10",
+    "events": [
+      {
+        "id": "cy-16",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 50,
+        "timestamp": "2026-06-10T10:00:30"
+      },
+      {
+        "id": "cy-18",
+        "customer": "cyberdyne",
+        "meter": "deployments",
+        "value": 5,
+        "timestamp": "2026-06-10T10:00:45"
+      }
+    ]
+  },
+  {
+    "command": "topUpWallet",
+    "username": "cyberdyne",
+    "timestamp": "2026-06-11",
+    "customer": null,
+    "amount": 200,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-06-15",
+    "action": "do",
+    "eventId": "st-stor-2"
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-06-16",
+    "action": "do",
+    "eventId": "st-stor-2"
+  },
+  {
+    "command": "voidUsage",
+    "username": "cosmin_a",
+    "timestamp": "2026-06-16",
+    "action": "undo",
+    "eventId": "li-gpu-1"
+  },
+  {
+    "command": "voidUsage",
+    "username": "sarra_m",
+    "timestamp": "2026-06-16",
+    "action": "do",
+    "eventId": "nope-1"
+  },
+  {
+    "command": "voidUsage",
+    "username": "stark_industries",
+    "timestamp": "2026-06-16",
+    "action": "do",
+    "eventId": "st-stor-1"
+  },
+  {
+    "command": "changePricing",
+    "username": "ghost_user",
+    "timestamp": "2026-06-16",
+    "meter": "bandwidth",
+    "currency": "EUR",
+    "effectiveFrom": "2026-06-01",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 1
+    }
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-06-18",
+    "action": "do",
+    "eventId": "wy-dep-3"
+  },
+  {
+    "command": "voidUsage",
+    "username": "andrei_i",
+    "timestamp": "2026-06-19",
+    "action": "undo",
+    "eventId": "wy-dep-3"
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-20",
+    "customer": null
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-06-20",
+    "meter": "bandwidth",
+    "currency": "EUR",
+    "effectiveFrom": "2026-07-16",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 4
+        },
+        {
+          "upTo": 1000,
+          "unitPrice": 3
+        },
+        {
+          "upTo": null,
+          "unitPrice": 2
+        }
+      ]
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-06-20",
+    "meter": "gpu_minutes",
+    "currency": "EUR",
+    "effectiveFrom": "2026-06-19",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 4
+        },
+        {
+          "upTo": 1000,
+          "unitPrice": 3
+        },
+        {
+          "upTo": null,
+          "unitPrice": 2
+        }
+      ]
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "andrei_i",
+    "timestamp": "2026-06-20",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-07-16",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 4
+        },
+        {
+          "upTo": 1000,
+          "unitPrice": 3
+        },
+        {
+          "upTo": null,
+          "unitPrice": 2
+        }
+      ]
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-06-20",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-07-16",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 4
+        },
+        {
+          "upTo": 1000,
+          "unitPrice": 3
+        },
+        {
+          "upTo": null,
+          "unitPrice": 2
+        }
+      ]
+    }
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-06-21"
+  },
+  {
+    "command": "viewPricing",
+    "username": "sarra_m",
+    "timestamp": "2026-06-21"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "cosmin_a",
+    "timestamp": "2026-06-21"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "gabriel_v",
+    "timestamp": "2026-06-21"
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-06-26",
+    "action": "do",
+    "eventId": "cy-15"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-26",
+    "events": [
+      {
+        "id": "cy-19",
+        "customer": "cyberdyne",
+        "meter": "api_requests",
+        "value": 50,
+        "timestamp": "2026-06-10T10:00:50"
+      },
+      {
+        "id": "st-seat-5",
+        "customer": "stark_industries",
+        "meter": "seats",
+        "value": 70,
+        "timestamp": "2026-06-10T10:01:00"
+      },
+      {
+        "id": "st-gpu-1",
+        "customer": "stark_industries",
+        "meter": "gpu_minutes",
+        "value": 500,
+        "timestamp": "2026-06-11T09:00:00"
+      },
+      {
+        "id": "cy-03",
+        "customer": "cyberdyne",
+        "meter": "deployments",
+        "value": 999,
+        "timestamp": "2026-06-12T09:00:00"
+      },
+      {
+        "id": "st-stor-3",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 500,
+        "timestamp": "2026-06-12T09:00:00"
+      },
+      {
+        "id": "cy-20",
+        "customer": "cyberdyne",
+        "meter": "deployments",
+        "value": 7,
+        "timestamp": "2026-06-12T09:01:00"
+      },
+      {
+        "id": "cy-21",
+        "customer": "cyberdyne",
+        "meter": "deployments",
+        "value": 8,
+        "timestamp": "2026-06-12T09:02:00"
+      },
+      {
+        "id": "cy-22",
+        "customer": "cyberdyne",
+        "meter": "deployments",
+        "value": 9,
+        "timestamp": "2026-06-12T09:03:00"
+      },
+      {
+        "id": "li-gpu-2",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 30,
+        "timestamp": "2026-06-12T10:00:00"
+      },
+      {
+        "id": "wy-dep-4",
+        "customer": "wayne_corp",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-06-12T10:00:00"
+      },
+      {
+        "id": "wy-dep-5",
+        "customer": "wayne_corp",
+        "meter": "deployments",
+        "value": 2,
+        "timestamp": "2026-06-12T10:01:00"
+      },
+      {
+        "id": "wy-dep-6",
+        "customer": "wayne_corp",
+        "meter": "deployments",
+        "value": 3,
+        "timestamp": "2026-06-12T10:02:00"
+      },
+      {
+        "id": "li-stor-1",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 15,
+        "timestamp": "2026-06-18T10:00:00"
+      },
+      {
+        "id": "st-gpu-2",
+        "customer": "stark_industries",
+        "meter": "gpu_minutes",
+        "value": 501,
+        "timestamp": "2026-06-19T09:00:00"
+      },
+      {
+        "id": "nv-0",
+        "customer": "nova_tech",
+        "meter": "storage_gb",
+        "value": 1,
+        "timestamp": "2026-06-19T09:40:00"
+      },
+      {
+        "id": "op-gpu-2",
+        "customer": "opto_labs",
+        "meter": "gpu_minutes",
+        "value": 400,
+        "timestamp": "2026-06-20T08:00:00"
+      },
+      {
+        "id": "al-api-2",
+        "customer": "ale_industries",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-06-20T09:00:00"
+      },
+      {
+        "id": "al-dep-5",
+        "customer": "ale_industries",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-06-20T09:10:00"
+      },
+      {
+        "id": "al-dep-6",
+        "customer": "ale_industries",
+        "meter": "deployments",
+        "value": 2,
+        "timestamp": "2026-06-20T09:11:00"
+      },
+      {
+        "id": "al-gpu-2",
+        "customer": "ale_industries",
+        "meter": "gpu_minutes",
+        "value": 41,
+        "timestamp": "2026-06-20T09:30:00"
+      },
+      {
+        "id": "st-seat-2",
+        "customer": "stark_industries",
+        "meter": "seats",
+        "value": 30,
+        "timestamp": "2026-06-20T10:00:00"
+      },
+      {
+        "id": "li-stor-2",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 12,
+        "timestamp": "2026-06-20T10:00:00"
+      },
+      {
+        "id": "li-dep-4",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 7,
+        "timestamp": "2026-06-20T10:30:00"
+      },
+      {
+        "id": "li-dep-5",
+        "customer": "lilith_labs",
+        "meter": "deployments",
+        "value": 8,
+        "timestamp": "2026-06-20T10:40:00"
+      },
+      {
+        "id": "li-seat-1",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 10,
+        "timestamp": "2026-06-20T11:00:00"
+      },
+      {
+        "id": "wy-stor-2",
+        "customer": "wayne_corp",
+        "meter": "storage_gb",
+        "value": 100,
+        "timestamp": "2026-06-20T13:00:00"
+      },
+      {
+        "id": "wy-seat-1",
+        "customer": "wayne_corp",
+        "meter": "seats",
+        "value": 50,
+        "timestamp": "2026-06-20T13:00:00"
+      },
+      {
+        "id": "st-seat-9",
+        "customer": "stark_industries",
+        "meter": "seats",
+        "value": 45,
+        "timestamp": "2026-06-25T12:00:00"
+      },
+      {
+        "id": "st-seat-4",
+        "customer": "stark_industries",
+        "meter": "seats",
+        "value": 51,
+        "timestamp": "2026-06-25T12:00:00"
+      },
+      {
+        "id": "st-seat-6",
+        "customer": "stark_industries",
+        "meter": "seats",
+        "value": 8,
+        "timestamp": "2026-06-26T08:00:00"
+      },
+      {
+        "id": "st-stor-4",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 200,
+        "timestamp": "2026-06-26T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-06-26",
+    "customer": "cyberdyne"
+  },
+  {
+    "command": "voidUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-06-27",
+    "action": "do",
+    "eventId": "st-seat-6"
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-06-28",
+    "customer": "ghost_corp"
+  },
+  {
+    "command": "signUp",
+    "username": "nova_tech",
+    "timestamp": "2026-06-30"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cvinti_r",
+    "timestamp": "2026-06-30",
+    "customer": "nova_tech",
+    "title": "Launch day",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-06-30",
+    "validTo": "2026-06-30"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-06-30",
+    "events": [
+      {
+        "id": "nv-1",
+        "customer": "nova_tech",
+        "meter": "storage_gb",
+        "value": 2,
+        "timestamp": "2026-06-30T23:59:59"
+      }
+    ]
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-07-01"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "cvinti_r",
+    "timestamp": "2026-07-01"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "ale_industries",
+    "amount": 100,
+    "reason": "Sorry",
+    "expiresAt": "2026-07-01"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "ale_industries",
+    "title": "Sorry",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-07-10",
+    "validTo": "2026-07-05"
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "action": "do",
+    "eventId": "al-api-2"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "ale_industries",
+    "invoiceId": 0,
+    "amount": 10,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-07-01",
+    "customer": null,
+    "amount": 600,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "payInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "wayne_corp",
+    "invoiceId": 0
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-01",
+    "invoiceId": 2,
+    "format": "CSV",
+    "fileName": "out_21_lilith_june.csv"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-01",
+    "invoiceId": 2,
+    "format": "JSON",
+    "fileName": "out_21_lilith_june.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-01",
+    "invoiceId": 5,
+    "format": "XML",
+    "fileName": "out_21_err_other.xml"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-01",
+    "invoiceId": 99,
+    "format": "JSON",
+    "fileName": "out_21_err_missing.json"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-07-01",
+    "invoiceId": 5,
+    "format": "PDF",
+    "fileName": "out_21_err_format.pdf"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-07-01",
+    "invoiceId": 0,
+    "format": "JSON",
+    "fileName": "out_21_ale_june_open.json"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "ghost_corp",
+    "invoiceId": 99,
+    "amount": 10,
+    "reason": "MISTAKE"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "lilith_labs",
+    "invoiceId": 5,
+    "amount": 10,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "lilith_labs",
+    "invoiceId": 99,
+    "amount": 10,
+    "reason": "MISTAKE"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-01",
+    "customer": "lilith_labs",
+    "invoiceId": 2,
+    "amount": 10,
+    "reason": "MISTAKE"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-07-01",
+    "customer": "lilith_labs",
+    "invoiceId": 2,
+    "amount": 10,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "nova_tech",
+    "timestamp": "2026-07-01",
+    "customer": null,
+    "amount": 56,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-07-01",
+    "events": [
+      {
+        "id": "nv-2",
+        "customer": "nova_tech",
+        "meter": "storage_gb",
+        "value": 7,
+        "timestamp": "2026-07-01T00:00:00"
+      },
+      {
+        "id": "wy-gpu-1",
+        "customer": "wayne_corp",
+        "meter": "gpu_minutes",
+        "value": 50,
+        "timestamp": "2026-07-01T09:00:00"
+      },
+      {
+        "id": "op-gpu-3",
+        "customer": "opto_labs",
+        "meter": "gpu_minutes",
+        "value": 20,
+        "timestamp": "2026-07-01T09:00:00"
+      },
+      {
+        "id": "nv-3",
+        "customer": "nova_tech",
+        "meter": "deployments",
+        "value": 4,
+        "timestamp": "2026-07-01T23:59:59"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "nova_tech",
+    "timestamp": "2026-07-01",
+    "customer": null
+  },
+  {
+    "command": "topUpWallet",
+    "username": "wayne_corp",
+    "timestamp": "2026-07-02",
+    "customer": null,
+    "amount": 1153,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "viewAccount",
+    "username": "wayne_corp",
+    "timestamp": "2026-07-02"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-07-02",
+    "customer": "ale_industries",
+    "amount": 200,
+    "reason": "Recovered"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-07-02",
+    "customer": "ale_industries",
+    "title": "Comeback 10",
+    "type": "PERCENTAGE",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-06-01",
+    "validTo": "2026-08-31"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-03",
+    "meter": "storage_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-07-20",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 3
+    }
+  },
+  {
+    "command": "payInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-03",
+    "customer": "ghost_corp",
+    "invoiceId": 6
+  },
+  {
+    "command": "payInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-03",
+    "customer": null,
+    "invoiceId": 2
+  },
+  {
+    "command": "payInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-03",
+    "customer": null,
+    "invoiceId": 5
+  },
+  {
+    "command": "payInvoice",
+    "username": "wayne_corp",
+    "timestamp": "2026-07-03",
+    "customer": null,
+    "invoiceId": 99
+  },
+  {
+    "command": "voidUsage",
+    "username": "cvinti_r",
+    "timestamp": "2026-07-05",
+    "action": "undo",
+    "eventId": "st-stor-2"
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-07-05",
+    "action": "do",
+    "eventId": "st-stor-2"
+  },
+  {
+    "command": "voidUsage",
+    "username": "andrei_i",
+    "timestamp": "2026-07-05",
+    "action": "undo",
+    "eventId": "al-api-1"
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-07-05",
+    "customer": "opto_labs"
+  },
+  {
+    "command": "grantCredits",
+    "username": "andrei_i",
+    "timestamp": "2026-07-05",
+    "customer": "lilith_labs",
+    "amount": 500,
+    "reason": "Loyalty"
+  },
+  {
+    "command": "grantCredits",
+    "username": "andrei_i",
+    "timestamp": "2026-07-05",
+    "customer": "lilith_labs",
+    "amount": 300,
+    "reason": "Summer promo",
+    "expiresAt": "2026-08-20"
+  },
+  {
+    "command": "grantCredits",
+    "username": "cosmin_a",
+    "timestamp": "2026-07-05",
+    "customer": "stark_industries",
+    "amount": 1000,
+    "reason": "Whale credits"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cosmin_a",
+    "timestamp": "2026-07-05",
+    "customer": "stark_industries",
+    "title": "GPU 10",
+    "type": "PERCENTAGE",
+    "value": 10,
+    "scope": "METER",
+    "meter": "gpu_minutes",
+    "validFrom": "2026-07-01",
+    "validTo": "2026-07-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cosmin_a",
+    "timestamp": "2026-07-05",
+    "customer": "stark_industries",
+    "title": "Flat 125",
+    "type": "FIXED",
+    "value": 125,
+    "scope": "INVOICE",
+    "validFrom": "2026-07-01",
+    "validTo": "2026-07-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cosmin_a",
+    "timestamp": "2026-07-05",
+    "customer": "stark_industries",
+    "title": "Deploy 500",
+    "type": "FIXED",
+    "value": 500,
+    "scope": "METER",
+    "meter": "deployments",
+    "validFrom": "2026-07-01",
+    "validTo": "2026-07-31"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-06",
+    "customer": "stark_industries",
+    "invoiceId": 5,
+    "amount": 1500,
+    "reason": "SERVICE_OUTAGE"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "andrei_i",
+    "timestamp": "2026-07-06",
+    "customer": "cyberdyne",
+    "title": "Flat 100",
+    "type": "FIXED",
+    "value": 100,
+    "scope": "INVOICE",
+    "validFrom": "2026-07-01",
+    "validTo": "2026-07-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "andrei_i",
+    "timestamp": "2026-07-06",
+    "customer": "cyberdyne",
+    "title": "Flat 150",
+    "type": "FIXED",
+    "value": 150,
+    "scope": "INVOICE",
+    "validFrom": "2026-07-15",
+    "validTo": "2026-08-15"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "andrei_i",
+    "timestamp": "2026-07-06",
+    "customer": "lilith_labs",
+    "invoiceId": 2,
+    "amount": 59,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "andrei_i",
+    "timestamp": "2026-07-06",
+    "invoiceId": 2,
+    "format": "CSV",
+    "fileName": "out_21_lilith_june_after_refund.csv"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "cosmin_a",
+    "timestamp": "2026-07-07",
+    "customer": "stark_industries",
+    "invoiceId": 5,
+    "amount": 4273,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-07-07",
+    "invoiceId": 5,
+    "format": "JSON",
+    "fileName": "out_21_stark_june_refunded.json"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-07-08",
+    "events": [
+      {
+        "id": "op-dep-1",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-07-08T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-07-10",
+    "events": [
+      {
+        "id": "st-gpu-3",
+        "customer": "stark_industries",
+        "meter": "gpu_minutes",
+        "value": 146,
+        "timestamp": "2026-07-09T09:00:00"
+      },
+      {
+        "id": "st-stor-5",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 400,
+        "timestamp": "2026-07-09T09:00:00"
+      },
+      {
+        "id": "al-seat-1",
+        "customer": "ale_industries",
+        "meter": "seats",
+        "value": 11,
+        "timestamp": "2026-07-09T10:00:00"
+      },
+      {
+        "id": "al-api-3",
+        "customer": "ale_industries",
+        "meter": "api_requests",
+        "value": 3000,
+        "timestamp": "2026-07-09T11:00:00"
+      },
+      {
+        "id": "nv-4",
+        "customer": "nova_tech",
+        "meter": "seats",
+        "value": 1,
+        "timestamp": "2026-07-10T07:00:00"
+      }
+    ]
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-10",
+    "meter": "seats",
+    "currency": "USD",
+    "effectiveFrom": "2026-07-10",
+    "model": {
+      "type": "VOLUME",
+      "tiers": [
+        {
+          "upTo": 10,
+          "unitPrice": 15
+        },
+        {
+          "upTo": 50,
+          "unitPrice": 9
+        },
+        {
+          "upTo": null,
+          "unitPrice": 7
+        }
+      ]
+    }
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-07-10",
+    "customer": "opto_labs",
+    "amount": 100,
+    "reason": "X"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-07-10",
+    "customer": "opto_labs",
+    "title": "X",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-07-01",
+    "validTo": "2026-07-31"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-10",
+    "customer": "opto_labs",
+    "invoiceId": 4,
+    "amount": 100,
+    "reason": "FRAUD"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-07-10",
+    "invoiceId": 4,
+    "format": "JSON",
+    "fileName": "out_21_opto_june_uncollectible.json"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-20",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-08-16",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 200,
+          "unitPrice": 3
+        },
+        {
+          "upTo": null,
+          "unitPrice": 1
+        }
+      ]
+    }
+  },
+  {
+    "command": "viewPricing",
+    "username": "opto_labs",
+    "timestamp": "2026-07-20"
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-21",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "lilith_labs",
+    "timestamp": "2026-07-23",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "nova_tech",
+    "timestamp": "2026-07-25",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-25",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-08-16",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 1
+        },
+        {
+          "upTo": null,
+          "unitPrice": 1
+        }
+      ]
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-25",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-08-10",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 1
+        },
+        {
+          "upTo": null,
+          "unitPrice": 1
+        }
+      ]
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-07-25",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-07-24",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 100,
+          "unitPrice": 1
+        },
+        {
+          "upTo": null,
+          "unitPrice": 1
+        }
+      ]
+    }
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-07-25",
+    "events": [
+      {
+        "id": "al-seat-2",
+        "customer": "ale_industries",
+        "meter": "seats",
+        "value": 12,
+        "timestamp": "2026-07-10T08:00:00"
+      },
+      {
+        "id": "li-gpu-3",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 10,
+        "timestamp": "2026-07-15T23:59:59"
+      },
+      {
+        "id": "li-gpu-4",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 10,
+        "timestamp": "2026-07-16T00:00:00"
+      },
+      {
+        "id": "st-gpu-4",
+        "customer": "stark_industries",
+        "meter": "gpu_minutes",
+        "value": 157,
+        "timestamp": "2026-07-18T09:00:00"
+      },
+      {
+        "id": "st-stor-6",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 250,
+        "timestamp": "2026-07-20T00:00:00"
+      },
+      {
+        "id": "st-stor-7",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 100,
+        "timestamp": "2026-07-20T10:00:00"
+      },
+      {
+        "id": "cy-23",
+        "customer": "cyberdyne",
+        "meter": "storage_gb",
+        "value": 30,
+        "timestamp": "2026-07-25T10:00:00"
+      },
+      {
+        "id": "wy-stor-3",
+        "customer": "wayne_corp",
+        "meter": "storage_gb",
+        "value": 100,
+        "timestamp": "2026-07-25T10:00:00"
+      },
+      {
+        "id": "st-stor-8",
+        "customer": "stark_industries",
+        "meter": "storage_gb",
+        "value": 410,
+        "timestamp": "2026-07-25T11:00:00"
+      }
+    ]
+  },
+  {
+    "command": "voidUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-07-28",
+    "action": "do",
+    "eventId": "st-stor-8"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-07-28",
+    "events": [
+      {
+        "id": "cy-23b",
+        "customer": "cyberdyne",
+        "meter": "storage_gb",
+        "value": 90,
+        "timestamp": "2026-07-28T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-07-28",
+    "action": "do",
+    "eventId": "cy-23b"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-07-28",
+    "events": [
+      {
+        "id": "cy-23d",
+        "customer": "cyberdyne",
+        "meter": "storage_gb",
+        "value": 20,
+        "timestamp": "2026-07-28T09:00:40"
+      }
+    ]
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-07-28",
+    "customer": "lilith_labs",
+    "title": "Free August",
+    "type": "PERCENTAGE",
+    "value": 100,
+    "scope": "INVOICE",
+    "validFrom": "2026-08-01",
+    "validTo": "2026-08-31"
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-07-28",
+    "customer": "stark_industries"
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-07-28",
+    "customer": "ale_industries"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-08-01",
+    "events": [
+      {
+        "id": "op-dep-2",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-08-01T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "topUpWallet",
+    "username": "opto_labs",
+    "timestamp": "2026-08-01",
+    "customer": null,
+    "amount": 4300,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "payInvoice",
+    "username": "cosmin_a",
+    "timestamp": "2026-08-01",
+    "customer": "opto_labs",
+    "invoiceId": 4
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-08-01",
+    "events": [
+      {
+        "id": "op-dep-3",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 0,
+        "timestamp": "2026-08-01T09:00:30"
+      }
+    ]
+  },
+  {
+    "command": "voidUsage",
+    "username": "giulio_p",
+    "timestamp": "2026-08-01",
+    "action": "do",
+    "eventId": "op-dep-3"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-08-01",
+    "events": [
+      {
+        "id": "op-dep-3b",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-08-01T09:00:50"
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-08-01"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-08-01",
+    "invoiceId": 4,
+    "format": "JSON",
+    "fileName": "out_21_opto_june_paid.json"
+  },
+  {
+    "command": "viewAccount",
+    "username": "opto_labs",
+    "timestamp": "2026-08-01"
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-08-01",
+    "customer": "opto_labs",
+    "amount": 100,
+    "reason": "Welcome back"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "stark_industries",
+    "timestamp": "2026-08-02",
+    "invoiceId": 11,
+    "format": "CSV",
+    "fileName": "out_21_stark_july.csv"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "wayne_corp",
+    "timestamp": "2026-08-03",
+    "customer": null,
+    "amount": 1250,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "payInvoice",
+    "username": "wayne_corp",
+    "timestamp": "2026-08-03",
+    "invoiceId": 12
+  },
+  {
+    "command": "refundInvoice",
+    "username": "cvinti_r",
+    "timestamp": "2026-08-05",
+    "customer": "ale_industries",
+    "invoiceId": 0,
+    "amount": 150,
+    "reason": "SERVICE_OUTAGE"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "cosmin_a",
+    "timestamp": "2026-08-05",
+    "customer": "opto_labs",
+    "invoiceId": 4,
+    "amount": 452,
+    "reason": "SERVICE_OUTAGE"
+  },
+  {
+    "command": "voidUsage",
+    "username": "andrei_i",
+    "timestamp": "2026-08-05",
+    "action": "do",
+    "eventId": "al-dep-1"
+  },
+  {
+    "command": "voidUsage",
+    "username": "andrei_i",
+    "timestamp": "2026-08-05",
+    "action": "do",
+    "eventId": "op-gpu-3"
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-08-05"
+  },
+  {
+    "command": "viewWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-08-05",
+    "customer": null
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-08-05"
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-08-10",
+    "customer": "wayne_corp"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "cvinti_r",
+    "timestamp": "2026-08-10",
+    "customer": "ale_industries",
+    "invoiceId": 7,
+    "amount": 100,
+    "reason": "SERVICE_OUTAGE"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "ale_industries",
+    "timestamp": "2026-08-10",
+    "invoiceId": 7,
+    "format": "JSON",
+    "fileName": "out_21_ale_july_refunded_part.json"
+  },
+  {
+    "command": "signUp",
+    "username": "umbrella_corp",
+    "timestamp": "2026-08-12"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-08-20",
+    "events": [
+      {
+        "id": "um-api-1",
+        "customer": "umbrella_corp",
+        "meter": "api_requests",
+        "value": 500,
+        "timestamp": "2026-08-12T12:00:00"
+      },
+      {
+        "id": "st-gpu-5",
+        "customer": "stark_industries",
+        "meter": "gpu_minutes",
+        "value": 2000,
+        "timestamp": "2026-08-14T09:00:00"
+      },
+      {
+        "id": "al-api-4",
+        "customer": "ale_industries",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-08-14T09:00:00"
+      },
+      {
+        "id": "st-gpu-6",
+        "customer": "stark_industries",
+        "meter": "gpu_minutes",
+        "value": 300,
+        "timestamp": "2026-08-16T00:00:00"
+      },
+      {
+        "id": "op-gpu-4",
+        "customer": "opto_labs",
+        "meter": "gpu_minutes",
+        "value": 250,
+        "timestamp": "2026-08-20T09:00:00"
+      },
+      {
+        "id": "li-seat-2",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 11,
+        "timestamp": "2026-08-20T09:00:00"
+      },
+      {
+        "id": "li-stor-3",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 25,
+        "timestamp": "2026-08-20T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "voidUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-08-20",
+    "action": "do",
+    "eventId": "um-api-1"
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-08-25",
+    "customer": null
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-09-02",
+    "customer": "stark_industries",
+    "invoiceId": 18,
+    "amount": 6380,
+    "reason": "FRAUD"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-09-02",
+    "customer": "stark_industries",
+    "invoiceId": 18,
+    "amount": 10,
+    "reason": "MISTAKE"
+  },
+  {
+    "command": "payInvoice",
+    "username": "stark_industries",
+    "timestamp": "2026-09-02",
+    "customer": null,
+    "invoiceId": 18
+  },
+  {
+    "command": "viewInvoices",
+    "username": "stark_industries",
+    "timestamp": "2026-09-02"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "alexia_o",
+    "timestamp": "2026-09-02",
+    "invoiceId": 19,
+    "format": "CSV",
+    "fileName": "out_21_umbrella_august_zero.csv"
+  },
+  {
+    "command": "unsubscribeFromMeter",
+    "username": "stark_industries",
+    "timestamp": "2026-09-02",
+    "meter": "gpu_minutes"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "umbrella_corp",
+    "timestamp": "2026-09-05",
+    "customer": null,
+    "amount": 80,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "grantCredits",
+    "username": "cvinti_r",
+    "timestamp": "2026-09-05",
+    "customer": "nova_tech",
+    "amount": 300,
+    "reason": "Gap promo",
+    "expiresAt": "2026-10-20"
+  },
+  {
+    "command": "grantCredits",
+    "username": "cvinti_r",
+    "timestamp": "2026-09-05",
+    "customer": "nova_tech",
+    "amount": 100,
+    "reason": "Loyalty",
+    "expiresAt": "2026-11-10"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-09-10",
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "effectiveFrom": "2026-10-15",
+    "model": {
+      "type": "GRADUATED",
+      "tiers": [
+        {
+          "upTo": 50,
+          "unitPrice": 10
+        },
+        {
+          "upTo": 500,
+          "unitPrice": 5
+        },
+        {
+          "upTo": null,
+          "unitPrice": 2
+        }
+      ]
+    }
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-09-10",
+    "events": [
+      {
+        "id": "um-gpu-1",
+        "customer": "umbrella_corp",
+        "meter": "gpu_minutes",
+        "value": 400,
+        "timestamp": "2026-09-10T09:00:00"
+      },
+      {
+        "id": "nv-5",
+        "customer": "nova_tech",
+        "meter": "storage_gb",
+        "value": 5,
+        "timestamp": "2026-09-10T09:30:00"
+      },
+      {
+        "id": "wy-dep-7",
+        "customer": "wayne_corp",
+        "meter": "deployments",
+        "value": 7,
+        "timestamp": "2026-09-10T10:07:00"
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "umbrella_corp",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "payInvoice",
+    "username": "umbrella_corp",
+    "timestamp": "2026-11-03",
+    "customer": null,
+    "invoiceId": 27
+  },
+  {
+    "command": "viewWallet",
+    "username": "nova_tech",
+    "timestamp": "2026-11-03",
+    "customer": null
+  },
+  {
+    "command": "viewInvoices",
+    "username": "nova_tech",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "nova_tech",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "stark_industries",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "signUp",
+    "username": "zeta_labs",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "viewAccount",
+    "username": "zeta_labs",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "viewNotifications",
+    "username": "zeta_labs",
+    "timestamp": "2026-11-03"
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "umbrella_corp",
+    "timestamp": "2026-11-03",
+    "meter": "deployments"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-11-05",
+    "meter": "api_requests",
+    "currency": "USD",
+    "effectiveFrom": "2026-11-16",
+    "model": {
+      "type": "PACKAGE",
+      "packageSize": 2000,
+      "packagePrice": 8
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-11-05",
+    "meter": "api_requests",
+    "currency": "USD",
+    "effectiveFrom": "2026-11-25",
+    "model": {
+      "type": "PACKAGE",
+      "packageSize": 500,
+      "packagePrice": 3
+    }
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-11-05",
+    "meter": "deployments",
+    "currency": "USD",
+    "effectiveFrom": "2026-11-16",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 15
+    }
+  },
+  {
+    "command": "viewNotifications",
+    "username": "umbrella_corp",
+    "timestamp": "2026-11-06"
+  },
+  {
+    "command": "viewPricing",
+    "username": "alexia_o",
+    "timestamp": "2026-11-06"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-11-27",
+    "events": [
+      {
+        "id": "li-gpu-5",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 60,
+        "timestamp": "2026-11-10T09:00:00"
+      },
+      {
+        "id": "st-api-2",
+        "customer": "stark_industries",
+        "meter": "api_requests",
+        "value": 2500,
+        "timestamp": "2026-11-10T09:00:00"
+      },
+      {
+        "id": "op-dep-5",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-11-12T09:00:00"
+      },
+      {
+        "id": "op-dep-6",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-11-12T09:01:00"
+      },
+      {
+        "id": "cy-24",
+        "customer": "cyberdyne",
+        "meter": "storage_gb",
+        "value": 31,
+        "timestamp": "2026-11-12T10:00:00"
+      },
+      {
+        "id": "op-gpu-5",
+        "customer": "opto_labs",
+        "meter": "gpu_minutes",
+        "value": 100,
+        "timestamp": "2026-11-12T10:00:00"
+      },
+      {
+        "id": "op-dep-9",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-11-14T10:00:00"
+      },
+      {
+        "id": "st-api-3",
+        "customer": "stark_industries",
+        "meter": "api_requests",
+        "value": 4001,
+        "timestamp": "2026-11-20T09:00:00"
+      },
+      {
+        "id": "op-dep-8",
+        "customer": "opto_labs",
+        "meter": "deployments",
+        "value": 1,
+        "timestamp": "2026-11-20T09:00:00"
+      },
+      {
+        "id": "st-api-4",
+        "customer": "stark_industries",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-11-27T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-01",
+    "customer": null,
+    "amount": 128,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "payInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-01",
+    "customer": null,
+    "invoiceId": 38
+  },
+  {
+    "command": "viewAccount",
+    "username": "cyberdyne",
+    "timestamp": "2026-12-04"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "cyberdyne",
+    "timestamp": "2026-12-04",
+    "customer": null,
+    "amount": 93,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "payInvoice",
+    "username": "cyberdyne",
+    "timestamp": "2026-12-04",
+    "customer": null,
+    "invoiceId": 37
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "viewAccount",
+    "username": "alexia_o",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "opto_labs",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "viewAccount",
+    "username": "opto_labs",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "zeta_labs",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "exportInvoice",
+    "username": "stark_industries",
+    "timestamp": "2026-12-09",
+    "invoiceId": 41,
+    "format": "CSV",
+    "fileName": "out_21_stark_november.csv"
+  },
+  {
+    "command": "viewBalance",
+    "username": "gabriel_v",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "sarra_m",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-09"
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "ghost_user",
+    "timestamp": "2026-12-09"
+  }
+]

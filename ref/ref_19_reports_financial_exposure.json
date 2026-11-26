@@ -1,0 +1,194 @@
+[
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-01",
+    "report": {
+      "totalTransactions": 0,
+      "transactionsByType": {
+        "TOP_UP": 0,
+        "CHARGE": 0,
+        "REFUND": 0
+      },
+      "exposureByType": {
+        "TOP_UP": 0.0,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-03",
+    "report": {
+      "totalTransactions": 5,
+      "transactionsByType": {
+        "TOP_UP": 5,
+        "CHARGE": 0,
+        "REFUND": 0
+      },
+      "exposureByType": {
+        "TOP_UP": 57.14,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-03",
+    "error": "Amount must be positive and non-zero."
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-03",
+    "report": {
+      "totalTransactions": 5,
+      "transactionsByType": {
+        "TOP_UP": 5,
+        "CHARGE": 0,
+        "REFUND": 0
+      },
+      "exposureByType": {
+        "TOP_UP": 57.14,
+        "CHARGE": 0.0,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03",
+    "report": {
+      "totalTransactions": 6,
+      "transactionsByType": {
+        "TOP_UP": 5,
+        "CHARGE": 1,
+        "REFUND": 0
+      },
+      "exposureByType": {
+        "TOP_UP": 57.14,
+        "CHARGE": 37.5,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-03",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03",
+    "report": {
+      "totalTransactions": 6,
+      "transactionsByType": {
+        "TOP_UP": 5,
+        "CHARGE": 1,
+        "REFUND": 0
+      },
+      "exposureByType": {
+        "TOP_UP": 57.14,
+        "CHARGE": 37.5,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-09",
+    "report": {
+      "totalTransactions": 8,
+      "transactionsByType": {
+        "TOP_UP": 6,
+        "CHARGE": 2,
+        "REFUND": 0
+      },
+      "exposureByType": {
+        "TOP_UP": 64.29,
+        "CHARGE": 62.5,
+        "REFUND": 0.0
+      }
+    }
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-10",
+    "report": {
+      "totalTransactions": 10,
+      "transactionsByType": {
+        "TOP_UP": 6,
+        "CHARGE": 2,
+        "REFUND": 2
+      },
+      "exposureByType": {
+        "TOP_UP": 64.29,
+        "CHARGE": 62.5,
+        "REFUND": 44.44
+      }
+    }
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "error": "Only PAID invoices can be refunded."
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-12",
+    "report": {
+      "totalTransactions": 12,
+      "transactionsByType": {
+        "TOP_UP": 6,
+        "CHARGE": 2,
+        "REFUND": 4
+      },
+      "exposureByType": {
+        "TOP_UP": 64.29,
+        "CHARGE": 62.5,
+        "REFUND": 40.28
+      }
+    }
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "alexia_o",
+    "timestamp": "2026-04-12",
+    "error": "The user does not have permission to execute this command: required role MANAGER; user role ADMIN."
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "ghost_user",
+    "timestamp": "2026-04-12",
+    "error": "The user ghost_user does not exist."
+  },
+  {
+    "command": "generateFinancialExposureReport",
+    "username": "sarra_m",
+    "timestamp": "2026-04-12",
+    "report": {
+      "totalTransactions": 12,
+      "transactionsByType": {
+        "TOP_UP": 6,
+        "CHARGE": 2,
+        "REFUND": 4
+      },
+      "exposureByType": {
+        "TOP_UP": 64.29,
+        "CHARGE": 62.5,
+        "REFUND": 40.28
+      }
+    }
+  }
+]

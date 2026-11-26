@@ -1,0 +1,190 @@
+[
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 100,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 1000,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 5000,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-03"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-03",
+    "customer": null,
+    "amount": 0,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-03-03"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-10",
+    "events": [
+      {
+        "id": "report-lilith_labs",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 50,
+        "timestamp": "2026-03-10T10:00:00"
+      },
+      {
+        "id": "report-ale_industries",
+        "customer": "ale_industries",
+        "meter": "storage_gb",
+        "value": 500,
+        "timestamp": "2026-03-10T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-03",
+    "customer": "ale_industries",
+    "invoiceId": 0,
+    "amount": 1,
+    "reason": "FRAUD"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-04-06",
+    "customer": null,
+    "amount": 5001,
+    "paymentMethod": "CRYPTO"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-09"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "customer": "lilith_labs",
+    "invoiceId": 1,
+    "amount": 1,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "customer": "lilith_labs",
+    "invoiceId": 1,
+    "amount": 1,
+    "reason": "SERVICE_OUTAGE"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-10"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "customer": "lilith_labs",
+    "invoiceId": 1,
+    "amount": 30,
+    "reason": "BILLING_ERROR"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "customer": "lilith_labs",
+    "invoiceId": 1,
+    "amount": 78,
+    "reason": "SERVICE_OUTAGE"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "customer": "lilith_labs",
+    "invoiceId": 1,
+    "amount": 1,
+    "reason": "FRAUD"
+  },
+  {
+    "command": "refundInvoice",
+    "username": "giulio_p",
+    "timestamp": "2026-04-11",
+    "customer": "ale_industries",
+    "invoiceId": 0,
+    "amount": 101,
+    "reason": "FRAUD"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-12"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "alexia_o",
+    "timestamp": "2026-04-12"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "ghost_user",
+    "timestamp": "2026-04-12"
+  },
+  {
+    "command": "generateCustomerImpactReport",
+    "username": "sarra_m",
+    "timestamp": "2026-04-12"
+  }
+]

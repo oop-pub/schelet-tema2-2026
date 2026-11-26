@@ -1,0 +1,47 @@
+[
+  {
+    "username": "gabriel_v",
+    "email": "gabriel_v@polimeter.cloud",
+    "role": "MANAGER"
+  },
+  {
+    "username": "sarra_m",
+    "email": "sarra_m@polimeter.cloud",
+    "role": "MANAGER"
+  },
+  {
+    "username": "alexia_o",
+    "email": "alexia_o@polimeter.cloud",
+    "role": "ADMIN",
+    "manager": "gabriel_v"
+  },
+  {
+    "username": "andrei_i",
+    "email": "andrei_i@polimeter.cloud",
+    "role": "SUPPORT",
+    "manager": "gabriel_v",
+    "phoneNumber": "0004-2802"
+  },
+  {
+    "username": "giulio_p",
+    "email": "giulio_p@polimeter.cloud",
+    "role": "SUPPORT",
+    "manager": "sarra_m",
+    "phoneNumber": "0001-2802"
+  },
+  {
+    "username": "cvinti_r",
+    "email": "cvinti_r@polimeter.cloud",
+    "role": "SUPPORT",
+    "manager": "sarra_m",
+    "phoneNumber": "0002-2802"
+  },
+  {
+    "username": "cosmin_a",
+    "email": "cosmin_a@polimeter.cloud",
+    "role": "SUPPORT",
+    "manager": "sarra_m",
+    "phoneNumber": "0003-2802"
+  }
+]
+

@@ -1,0 +1,207 @@
+[
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-03-31",
+    "customer": "lilith_labs",
+    "period": "2026-03",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 100
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 1500
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-04-30",
+    "customer": "lilith_labs",
+    "period": "2026-04",
+    "usage": [
+      {
+        "meter": "api_requests",
+        "unit": "request",
+        "aggregation": "SUM",
+        "value": 0
+      },
+      {
+        "meter": "deployments",
+        "unit": "deployment",
+        "aggregation": "COUNT",
+        "value": 0
+      },
+      {
+        "meter": "gpu_minutes",
+        "unit": "minute",
+        "aggregation": "SUM",
+        "value": 1000
+      },
+      {
+        "meter": "seats",
+        "unit": "seat",
+        "aggregation": "LAST",
+        "value": 50
+      },
+      {
+        "meter": "storage_gb",
+        "unit": "GB",
+        "aggregation": "MAX",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "alexia_o",
+    "timestamp": "2026-05-04",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 101,
+            "amount": 504
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 11,
+            "amount": 110
+          }
+        ],
+        "subtotal": 614,
+        "discount": 0,
+        "credits": 0,
+        "tax": 61,
+        "total": 675,
+        "refunded": 0
+      },
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 100,
+            "amount": 500
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 1500,
+            "amount": 12000
+          }
+        ],
+        "subtotal": 12500,
+        "discount": 0,
+        "credits": 0,
+        "tax": 1250,
+        "total": 13750,
+        "refunded": 0
+      },
+      {
+        "id": 2,
+        "customer": "ale_industries",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 1001,
+            "amount": 4103
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 51,
+            "amount": 408
+          }
+        ],
+        "subtotal": 4511,
+        "discount": 0,
+        "credits": 0,
+        "tax": 451,
+        "total": 4962,
+        "refunded": 0
+      },
+      {
+        "id": 3,
+        "customer": "lilith_labs",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 4100
+          },
+          {
+            "type": "USAGE",
+            "meter": "seats",
+            "priceVersion": "v1",
+            "quantity": 50,
+            "amount": 500
+          }
+        ],
+        "subtotal": 4600,
+        "discount": 0,
+        "credits": 0,
+        "tax": 460,
+        "total": 5060,
+        "refunded": 0
+      }
+    ]
+  }
+]

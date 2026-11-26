@@ -1,0 +1,95 @@
+[
+  {
+    "meter": "api_requests",
+    "currency": "USD",
+    "versions": [
+      {
+        "effectiveFrom": "2026-01-01",
+        "model": {
+          "type": "PACKAGE",
+          "packageSize": 1000,
+          "packagePrice": 5
+        }
+      }
+    ]
+  },
+  {
+    "meter": "gpu_minutes",
+    "currency": "USD",
+    "versions": [
+      {
+        "effectiveFrom": "2026-01-01",
+        "model": {
+          "type": "GRADUATED",
+          "tiers": [
+            {
+              "upTo": 100,
+              "unitPrice": 5
+            },
+            {
+              "upTo": 1000,
+              "unitPrice": 4
+            },
+            {
+              "upTo": null,
+              "unitPrice": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "meter": "storage_gb",
+    "currency": "USD",
+    "versions": [
+      {
+        "effectiveFrom": "2026-01-01",
+        "model": {
+          "type": "PER_UNIT",
+          "unitPrice": 2
+        }
+      }
+    ]
+  },
+  {
+    "meter": "seats",
+    "currency": "USD",
+    "versions": [
+      {
+        "effectiveFrom": "2026-01-01",
+        "model": {
+          "type": "VOLUME",
+          "tiers": [
+            {
+              "upTo": 10,
+              "unitPrice": 12
+            },
+            {
+              "upTo": 50,
+              "unitPrice": 10
+            },
+            {
+              "upTo": null,
+              "unitPrice": 8
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "meter": "deployments",
+    "currency": "USD",
+    "versions": [
+      {
+        "effectiveFrom": "2026-01-01",
+        "model": {
+          "type": "PACKAGE",
+          "packageSize": 5,
+          "packagePrice": 20
+        }
+      }
+    ]
+  }
+]

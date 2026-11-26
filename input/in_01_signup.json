@@ -1,0 +1,77 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-09"
+  },
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-10"
+  },
+  {
+    "command": "signUp",
+    "username": "alexia_o",
+    "timestamp": "2026-03-10"
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-10"
+  },
+  {
+    "command": "viewAccount",
+    "username": "ghost_user",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "viewAccount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "viewAccount",
+    "username": "sarra_m",
+    "timestamp": "2026-03-11"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-31"
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-03-31"
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01"
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-04-04"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_robots",
+    "timestamp": "2026-12-31"
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_robots",
+    "timestamp": "2026-12-31"
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-12-31"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_robots",
+    "timestamp": "2027-01-15"
+  }
+]

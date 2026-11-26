@@ -1,0 +1,27 @@
+[
+  {
+    "name": "api_requests",
+    "unit": "request",
+    "aggregation": "SUM"
+  },
+  {
+    "name": "gpu_minutes",
+    "unit": "minute",
+    "aggregation": "SUM"
+  },
+  {
+    "name": "storage_gb",
+    "unit": "GB",
+    "aggregation": "MAX"
+  },
+  {
+    "name": "seats",
+    "unit": "seat",
+    "aggregation": "LAST"
+  },
+  {
+    "name": "deployments",
+    "unit": "deployment",
+    "aggregation": "COUNT"
+  }
+]

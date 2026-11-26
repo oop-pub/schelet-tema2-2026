@@ -1,0 +1,9 @@
+invoiceId,customer,period,lineType,description,quantity,amount
+11,stark_industries,2026-07,USAGE,gpu_minutes v1,146,684
+11,stark_industries,2026-07,USAGE,gpu_minutes v2,157,571
+11,stark_industries,2026-07,USAGE,storage_gb v1,400,800
+11,stark_industries,2026-07,USAGE,storage_gb v2,250,750
+11,stark_industries,2026-07,DISCOUNT,Discount applied,,-126
+11,stark_industries,2026-07,CREDIT,Credits applied,,-100
+11,stark_industries,2026-07,TAX,Tax,,281
+11,stark_industries,2026-07,TOTAL,Total (USD),,2860

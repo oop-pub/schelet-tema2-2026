@@ -1,0 +1,44 @@
+{
+  "id": 5,
+  "customer": "stark_industries",
+  "period": "2026-06",
+  "issuedAt": "2026-07-01",
+  "status": "REFUNDED",
+  "currency": "USD",
+  "lines": [
+    {
+      "type": "USAGE",
+      "meter": "api_requests",
+      "priceVersion": "v1",
+      "quantity": 1001,
+      "amount": 10
+    },
+    {
+      "type": "USAGE",
+      "meter": "gpu_minutes",
+      "priceVersion": "v1",
+      "quantity": 1001,
+      "amount": 4103
+    },
+    {
+      "type": "USAGE",
+      "meter": "seats",
+      "priceVersion": "v1",
+      "quantity": 51,
+      "amount": 408
+    },
+    {
+      "type": "USAGE",
+      "meter": "storage_gb",
+      "priceVersion": "v1",
+      "quantity": 500,
+      "amount": 1000
+    }
+  ],
+  "subtotal": 5521,
+  "discount": 300,
+  "credits": 0,
+  "tax": 552,
+  "total": 5773,
+  "refunded": 5773
+}

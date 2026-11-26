@@ -1,0 +1,12 @@
+invoiceId,customer,period,lineType,description,quantity,amount
+1,bob_labs,2026-03,USAGE,api_requests v1,6100,35
+1,bob_labs,2026-03,USAGE,deployments v1,7,40
+1,bob_labs,2026-03,USAGE,gpu_minutes v1,70,350
+1,bob_labs,2026-03,USAGE,gpu_minutes v2,45,135
+1,bob_labs,2026-03,USAGE,seats v1,68,544
+1,bob_labs,2026-03,USAGE,storage_gb v1,70,140
+1,bob_labs,2026-03,USAGE,storage_gb v2,85,255
+1,bob_labs,2026-03,DISCOUNT,Discount applied,,-97
+1,bob_labs,2026-03,CREDIT,Credits applied,,-40
+1,bob_labs,2026-03,TAX,Tax,,150
+1,bob_labs,2026-03,TOTAL,Total (USD),,1512

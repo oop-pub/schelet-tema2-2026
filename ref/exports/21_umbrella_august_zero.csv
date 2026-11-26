@@ -1,0 +1,5 @@
+invoiceId,customer,period,lineType,description,quantity,amount
+19,umbrella_corp,2026-08,DISCOUNT,Discount applied,,0
+19,umbrella_corp,2026-08,CREDIT,Credits applied,,0
+19,umbrella_corp,2026-08,TAX,Tax,,0
+19,umbrella_corp,2026-08,TOTAL,Total (USD),,0

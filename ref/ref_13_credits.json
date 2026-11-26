@@ -1,0 +1,157 @@
+[
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "error": "Customer ghost_customer not found."
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "error": "Customer ghost_customer not found."
+  },
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-03-05",
+    "error": "Expiry date must be after the current date."
+  },
+  {
+    "command": "grantCredits",
+    "username": "alexia_o",
+    "timestamp": "2026-03-05",
+    "error": "The user does not have permission to execute this command: required role SUPPORT; user role ADMIN."
+  },
+  {
+    "command": "grantCredits",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-05",
+    "error": "The user does not have permission to execute this command: required role SUPPORT; user role CUSTOMER."
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-31",
+    "balance": 200,
+    "credits": 50,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 200,
+        "timestamp": "2026-03-02"
+      }
+    ]
+  },
+  {
+    "command": "grantCredits",
+    "username": "cosmin_a",
+    "timestamp": "2026-04-02",
+    "error": "Cannot grant credits: customer ale_industries subscription is PAST_DUE."
+  },
+  {
+    "command": "grantCredits",
+    "username": "cosmin_a",
+    "timestamp": "2026-04-10",
+    "error": "Cannot grant credits: customer ale_industries subscription is SUSPENDED."
+  },
+  {
+    "command": "viewWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-24",
+    "balance": 197,
+    "credits": 40,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 200,
+        "timestamp": "2026-03-02"
+      },
+      {
+        "id": 2,
+        "type": "CHARGE",
+        "amount": -3,
+        "timestamp": "2026-04-01",
+        "invoiceId": 1
+      }
+    ]
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-04-25",
+    "customer": "lilith_labs",
+    "balance": 197,
+    "credits": 10,
+    "transactions": [
+      {
+        "id": 0,
+        "type": "TOP_UP",
+        "amount": 200,
+        "timestamp": "2026-03-02"
+      },
+      {
+        "id": 2,
+        "type": "CHARGE",
+        "amount": -3,
+        "timestamp": "2026-04-01",
+        "invoiceId": 1
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-02",
+    "invoices": [
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 15,
+            "amount": 30
+          }
+        ],
+        "subtotal": 30,
+        "discount": 0,
+        "credits": 30,
+        "tax": 3,
+        "total": 3,
+        "refunded": 0
+      },
+      {
+        "id": 2,
+        "customer": "lilith_labs",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 20,
+            "amount": 100
+          }
+        ],
+        "subtotal": 100,
+        "discount": 0,
+        "credits": 10,
+        "tax": 10,
+        "total": 100,
+        "refunded": 0
+      }
+    ]
+  }
+]

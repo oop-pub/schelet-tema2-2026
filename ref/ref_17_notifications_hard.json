@@ -1,0 +1,130 @@
+[
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-04",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-07",
+    "notifications": [
+      {
+        "timestamp": "2026-03-03",
+        "message": "Price of gpu_minutes changed: version v2 effective from 2026-03-20."
+      },
+      {
+        "timestamp": "2026-03-03",
+        "message": "Price of api_requests changed: version v2 effective from 2026-03-21."
+      },
+      {
+        "timestamp": "2026-03-06",
+        "message": "Price of gpu_minutes changed: version v3 effective from 2026-03-25."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-07",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-07",
+    "notifications": [
+      {
+        "timestamp": "2026-03-03",
+        "message": "Price of gpu_minutes changed: version v2 effective from 2026-03-20."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-07",
+    "notifications": [
+      {
+        "timestamp": "2026-03-06",
+        "message": "Price of gpu_minutes changed: version v3 effective from 2026-03-25."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-08",
+    "notifications": []
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-09",
+    "error": "Price effective date must be after 2026-03-25 (version v3)."
+  },
+  {
+    "command": "subscribeToMeter",
+    "username": "giulio_p",
+    "timestamp": "2026-03-09",
+    "error": "The user does not have permission to execute this command: required role CUSTOMER; user role SUPPORT."
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-11",
+    "notifications": [
+      {
+        "timestamp": "2026-03-10",
+        "message": "Price of gpu_minutes changed: version v4 effective from 2026-04-01."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-03-11",
+    "notifications": [
+      {
+        "timestamp": "2026-03-10",
+        "message": "Price of gpu_minutes changed: version v4 effective from 2026-04-01."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-11",
+    "notifications": [
+      {
+        "timestamp": "2026-03-10",
+        "message": "Price of gpu_minutes changed: version v4 effective from 2026-04-01."
+      }
+    ]
+  },
+  {
+    "command": "viewNotifications",
+    "username": "sarra_m",
+    "timestamp": "2026-03-11",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-20",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "opto_labs",
+    "timestamp": "2026-03-25",
+    "notifications": []
+  },
+  {
+    "command": "viewNotifications",
+    "username": "ale_industries",
+    "timestamp": "2026-04-02",
+    "notifications": []
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 100,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-25",
+    "events": [
+      {
+        "id": "evt-1",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 2500,
+        "timestamp": "2026-03-10T09:00:00"
+      },
+      {
+        "id": "evt-2",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 1500,
+        "timestamp": "2026-03-12T09:25:00"
+      },
+      {
+        "id": "evt-3",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 100,
+        "timestamp": "2026-03-12T09:30:00"
+      },
+      {
+        "id": "evt-4",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 10,
+        "timestamp": "2026-03-13T10:00:00"
+      },
+      {
+        "id": "evt-5",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 20,
+        "timestamp": "2026-03-14T10:00:00"
+      },
+      {
+        "id": "evt-6",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 30,
+        "timestamp": "2026-03-15T10:00:00"
+      },
+      {
+        "id": "evt-13",
+        "customer": "ale_industries",
+        "meter": "storage_gb",
+        "value": 30,
+        "timestamp": "2026-03-16T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-01",
+    "customer": null,
+    "amount": 600,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-03"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03",
+    "customer": null,
+    "amount": 70,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-04-05"
+  },
+  {
+    "command": "payInvoice",
+    "username": "ghost_user",
+    "timestamp": "2026-04-05",
+    "customer": null,
+    "invoiceId": 110
+  },
+  {
+    "command": "payInvoice",
+    "username": "sarra_m",
+    "timestamp": "2026-04-05",
+    "customer": "lilith_labs",
+    "invoiceId": 100
+  },
+  {
+    "command": "payInvoice",
+    "username": "andrei_i",
+    "timestamp": "2026-04-05",
+    "customer": "ghost_user",
+    "invoiceId": 99
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-04-28",
+    "events": [
+      {
+        "id": "evt-7",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-04-10T09:00:00"
+      },
+      {
+        "id": "evt-8",
+        "customer": "lilith_labs",
+        "meter": "api_requests",
+        "value": 150,
+        "timestamp": "2026-04-12T09:25:00"
+      },
+      {
+        "id": "evt-9",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 1001,
+        "timestamp": "2026-04-15T09:30:00"
+      },
+      {
+        "id": "evt-10",
+        "customer": "lilith_labs",
+        "meter": "gpu_minutes",
+        "value": 10,
+        "timestamp": "2026-04-16T10:00:00"
+      },
+      {
+        "id": "evt-14",
+        "customer": "ale_industries",
+        "meter": "storage_gb",
+        "value": 50,
+        "timestamp": "2026-04-18T10:00:00"
+      },
+      {
+        "id": "evt-11",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 200,
+        "timestamp": "2026-04-20T10:00:00"
+      },
+      {
+        "id": "evt-12",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 10,
+        "timestamp": "2026-04-22T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-05"
+  },
+  {
+    "command": "payInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-05",
+    "customer": null,
+    "invoiceId": 1
+  },
+  {
+    "command": "payInvoice",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-05",
+    "customer": null,
+    "invoiceId": 0
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-05",
+    "customer": null,
+    "amount": 5000,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-06"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-10"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-06-03"
+  },
+  {
+    "command": "payInvoice",
+    "username": "ale_industries",
+    "timestamp": "2026-06-03",
+    "customer": null,
+    "invoiceId": 2
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-06-03",
+    "customer": null,
+    "amount": 120,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "payInvoice",
+    "username": "ale_industries",
+    "timestamp": "2026-06-03",
+    "customer": null,
+    "invoiceId": 2
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-07-02"
+  }
+]

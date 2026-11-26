@@ -1,0 +1,114 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-03",
+    "customer": null,
+    "amount": 1000000,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-10",
+    "events": [
+      {
+        "id": "evt-4",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 8,
+        "timestamp": "2026-03-03T09:00:00"
+      },
+      {
+        "id": "evt-1",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 80,
+        "timestamp": "2026-03-10T09:00:00"
+      },
+      {
+        "id": "evt-2",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 12,
+        "timestamp": "2026-03-10T09:05:00"
+      },
+      {
+        "id": "evt-6",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 120,
+        "timestamp": "2026-03-10T09:20:00"
+      },
+      {
+        "id": "evt-3",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 9,
+        "timestamp": "2026-03-20T09:00:00"
+      },
+      {
+        "id": "evt-5",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 11,
+        "timestamp": "2026-03-20T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "alexia_o",
+    "timestamp": "2026-03-12",
+    "customer": "lilith_labs"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-04-02",
+    "events": [
+      {
+        "id": "evt-10",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 6,
+        "timestamp": "2026-04-01T10:00:00"
+      },
+      {
+        "id": "evt-8",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 30,
+        "timestamp": "2026-04-02T08:00:00"
+      },
+      {
+        "id": "evt-11",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 20,
+        "timestamp": "2026-04-02T08:20:00"
+      },
+      {
+        "id": "evt-9",
+        "customer": "lilith_labs",
+        "meter": "seats",
+        "value": 7,
+        "timestamp": "2026-04-02T08:30:00"
+      }
+    ]
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "lilith_labs",
+    "timestamp": "2026-04-03",
+    "customer": null
+  },
+  {
+    "command": "viewUserUsage",
+    "username": "gabriel_v",
+    "timestamp": "2026-04-03"
+  }
+]

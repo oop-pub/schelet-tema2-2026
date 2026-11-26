@@ -1,0 +1,178 @@
+[
+  {
+    "command": "grantCredits",
+    "username": "giulio_p",
+    "timestamp": "2026-04-01",
+    "error": "Cannot grant credits: customer ale_industries subscription is PAST_DUE."
+  },
+  {
+    "command": "viewAccount",
+    "username": "ale_industries",
+    "timestamp": "2026-04-03",
+    "balance": 5,
+    "discounts": [
+      {
+        "title": "Loyalty 30%",
+        "type": "PERCENTAGE",
+        "value": 30,
+        "scope": "INVOICE",
+        "validFrom": "2026-03-01",
+        "validTo": "2026-04-30"
+      }
+    ],
+    "subscription": {
+      "status": "PAST_DUE",
+      "nextBillingDate": "2026-04-04",
+      "unpaidInvoiceId": 0
+    }
+  },
+  {
+    "command": "viewWallet",
+    "username": "alexia_o",
+    "timestamp": "2026-05-02",
+    "customer": "ale_industries",
+    "balance": 146,
+    "credits": 0,
+    "transactions": [
+      {
+        "id": 1,
+        "type": "TOP_UP",
+        "amount": 5,
+        "timestamp": "2026-03-02"
+      },
+      {
+        "id": 3,
+        "type": "TOP_UP",
+        "amount": 425,
+        "timestamp": "2026-04-03"
+      },
+      {
+        "id": 4,
+        "type": "CHARGE",
+        "amount": -30,
+        "timestamp": "2026-04-04",
+        "invoiceId": 0
+      },
+      {
+        "id": 5,
+        "type": "CHARGE",
+        "amount": -254,
+        "timestamp": "2026-05-01",
+        "invoiceId": 2
+      }
+    ]
+  },
+  {
+    "command": "viewInvoices",
+    "username": "alexia_o",
+    "timestamp": "2026-05-02",
+    "invoices": [
+      {
+        "id": 0,
+        "customer": "ale_industries",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 60,
+            "amount": 300
+          }
+        ],
+        "subtotal": 300,
+        "discount": 90,
+        "credits": 210,
+        "tax": 30,
+        "total": 30,
+        "refunded": 0
+      },
+      {
+        "id": 1,
+        "customer": "lilith_labs",
+        "period": "2026-03",
+        "issuedAt": "2026-04-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 20,
+            "amount": 40
+          }
+        ],
+        "subtotal": 40,
+        "discount": 40,
+        "credits": 0,
+        "tax": 4,
+        "total": 4,
+        "refunded": 0
+      },
+      {
+        "id": 2,
+        "customer": "ale_industries",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 1000,
+            "amount": 5
+          },
+          {
+            "type": "USAGE",
+            "meter": "gpu_minutes",
+            "priceVersion": "v1",
+            "quantity": 90,
+            "amount": 450
+          }
+        ],
+        "subtotal": 455,
+        "discount": 137,
+        "credits": 110,
+        "tax": 46,
+        "total": 254,
+        "refunded": 0
+      },
+      {
+        "id": 3,
+        "customer": "lilith_labs",
+        "period": "2026-04",
+        "issuedAt": "2026-05-01",
+        "status": "PAID",
+        "currency": "USD",
+        "lines": [
+          {
+            "type": "USAGE",
+            "meter": "api_requests",
+            "priceVersion": "v1",
+            "quantity": 3000,
+            "amount": 15
+          },
+          {
+            "type": "USAGE",
+            "meter": "storage_gb",
+            "priceVersion": "v1",
+            "quantity": 25,
+            "amount": 50
+          }
+        ],
+        "subtotal": 65,
+        "discount": 15,
+        "credits": 30,
+        "tax": 7,
+        "total": 27,
+        "refunded": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "command": "signUp",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "signUp",
+    "username": "ale_industries",
+    "timestamp": "2026-03-01"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "lilith_labs",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 100,
+    "paymentMethod": "CARD"
+  },
+  {
+    "command": "topUpWallet",
+    "username": "ale_industries",
+    "timestamp": "2026-03-02",
+    "customer": null,
+    "amount": 50,
+    "paymentMethod": "BANK_TRANSFER"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-02",
+    "customer": "lilith_labs",
+    "title": "Spring sale",
+    "type": "PERCENTAGE",
+    "value": 15,
+    "scope": "INVOICE",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-04-30"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "andrei_i",
+    "timestamp": "2026-03-03",
+    "customer": "lilith_labs",
+    "title": "April mega deal",
+    "type": "FIXED",
+    "value": 500,
+    "scope": "INVOICE",
+    "validFrom": "2026-04-01",
+    "validTo": "2026-04-30"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "ghost_customer",
+    "title": "Nobody",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-03-10",
+    "validTo": "2026-03-01"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "title": "Backwards",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-04-10",
+    "validTo": "2026-04-01"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "alexia_o",
+    "timestamp": "2026-03-04",
+    "customer": "lilith_labs",
+    "title": "Admin gift",
+    "type": "FIXED",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-03-31"
+  },
+  {
+    "command": "changePricing",
+    "username": "alexia_o",
+    "timestamp": "2026-03-05",
+    "meter": "storage_gb",
+    "currency": "USD",
+    "effectiveFrom": "2026-03-16",
+    "model": {
+      "type": "PER_UNIT",
+      "unitPrice": 3
+    }
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cvinti_r",
+    "timestamp": "2026-03-06",
+    "customer": "ale_industries",
+    "title": "Storage 25%",
+    "type": "PERCENTAGE",
+    "value": 25,
+    "scope": "METER",
+    "meter": "storage_gb",
+    "validFrom": "2026-03-31",
+    "validTo": "2026-03-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cvinti_r",
+    "timestamp": "2026-03-06",
+    "customer": "ale_industries",
+    "title": "GPU 50 off",
+    "type": "FIXED",
+    "value": 50,
+    "scope": "METER",
+    "meter": "gpu_minutes",
+    "validFrom": "2026-03-01",
+    "validTo": "2026-03-31"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "cvinti_r",
+    "timestamp": "2026-03-06",
+    "customer": "lilith_labs",
+    "title": "April match",
+    "type": "FIXED",
+    "value": 40,
+    "scope": "INVOICE",
+    "validFrom": "2026-04-01",
+    "validTo": "2026-04-30"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-03-25",
+    "events": [
+      {
+        "id": "evt-1",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 15,
+        "timestamp": "2026-03-10T09:00:00"
+      },
+      {
+        "id": "evt-2",
+        "customer": "ale_industries",
+        "meter": "storage_gb",
+        "value": 10,
+        "timestamp": "2026-03-10T10:00:00"
+      },
+      {
+        "id": "evt-3",
+        "customer": "ale_industries",
+        "meter": "api_requests",
+        "value": 1000,
+        "timestamp": "2026-03-12T10:00:00"
+      },
+      {
+        "id": "evt-4",
+        "customer": "ale_industries",
+        "meter": "storage_gb",
+        "value": 20,
+        "timestamp": "2026-03-20T10:00:00"
+      }
+    ]
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-04-02",
+    "customer": "ale_industries",
+    "title": "Too late",
+    "type": "PERCENTAGE",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-04-01",
+    "validTo": "2026-04-30"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "ale_industries",
+    "timestamp": "2026-04-02"
+  },
+  {
+    "command": "applyDiscount",
+    "username": "giulio_p",
+    "timestamp": "2026-04-10",
+    "customer": "ale_industries",
+    "title": "Win-back offer",
+    "type": "PERCENTAGE",
+    "value": 10,
+    "scope": "INVOICE",
+    "validFrom": "2026-04-01",
+    "validTo": "2026-04-30"
+  },
+  {
+    "command": "ingestUsage",
+    "timestamp": "2026-04-20",
+    "events": [
+      {
+        "id": "evt-5",
+        "customer": "lilith_labs",
+        "meter": "storage_gb",
+        "value": 10,
+        "timestamp": "2026-04-15T09:00:00"
+      }
+    ]
+  },
+  {
+    "command": "viewAccount",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-02"
+  },
+  {
+    "command": "viewInvoices",
+    "username": "lilith_labs",
+    "timestamp": "2026-05-02"
+  }
+]

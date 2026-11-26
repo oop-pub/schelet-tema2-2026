@@ -1,0 +1,30 @@
+{
+  "id": 4,
+  "customer": "opto_labs",
+  "period": "2026-06",
+  "issuedAt": "2026-07-01",
+  "status": "UNCOLLECTIBLE",
+  "currency": "USD",
+  "lines": [
+    {
+      "type": "USAGE",
+      "meter": "api_requests",
+      "priceVersion": "v1",
+      "quantity": 1000,
+      "amount": 5
+    },
+    {
+      "type": "USAGE",
+      "meter": "gpu_minutes",
+      "priceVersion": "v1",
+      "quantity": 1000,
+      "amount": 4100
+    }
+  ],
+  "subtotal": 4105,
+  "discount": 0,
+  "credits": 0,
+  "tax": 411,
+  "total": 4516,
+  "refunded": 0
+}
